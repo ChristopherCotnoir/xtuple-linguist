@@ -7395,6 +7395,10 @@
           "target": "Keine Förderfähige Maßnahmen"
         },
         {
+          "key": "_noItemFound",
+          "source": "No item found"
+        },
+        {
           "key": "_none",
           "source": "None",
           "target": "Keiner"
@@ -10251,7 +10255,7 @@
         },
         {
           "key": "_generatingPrivateKey",
-          "source": "A new keypair will be generated for this OAUTH2 client. The public key will be saved in the database with this client. The private key is available as a one-time download. The password for the key store file will be \"notasecret\". Click \"ok\" to downloading the private key.",
+          "source": "A new keypair will be generated for this OAUTH2 client. The public key will be available in the future with this client. The private key is only available now as a one-time download. Note that this process can take up to a minute. Please wait until the key is downloaded.",
           "target": "Ein neues Schlüsselpaar für diesen OAUTH2 Client generiert werden. Der öffentliche Schlüssel wird in der Datenbank mit diesem Client gespeichert werden. Der private Schlüssel ist so eine einmalige Download verfügbar. Das Kennwort für den Schlüsselspeicher-Datei wird &quot;notasecret&quot; zu sein. Klicken Sie auf &quot;OK&quot;, um eine neue Registerkarte für das Herunterladen der privaten Schlüssel öffnen"
         },
         {

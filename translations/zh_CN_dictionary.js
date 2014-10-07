@@ -7395,6 +7395,10 @@
           "target": "没有符合条件的操作"
         },
         {
+          "key": "_noItemFound",
+          "source": "No item found"
+        },
+        {
           "key": "_none",
           "source": "None",
           "target": "无"
@@ -10251,7 +10255,7 @@
         },
         {
           "key": "_generatingPrivateKey",
-          "source": "A new keypair will be generated for this OAUTH2 client. The public key will be saved in the database with this client. The private key is available as a one-time download. The password for the key store file will be \"notasecret\". Click \"ok\" to downloading the private key.",
+          "source": "A new keypair will be generated for this OAUTH2 client. The public key will be available in the future with this client. The private key is only available now as a one-time download. Note that this process can take up to a minute. Please wait until the key is downloaded.",
           "target": "一种新的密钥对将这个OAUTH2客户端生成的。公共密钥将被保存在数据库中与此客户端。私钥可作为一次性下载。密钥存储区文件中的密码将是“notasecret”。单击“确定”，打开一个新的标签页下载私钥"
         },
         {
