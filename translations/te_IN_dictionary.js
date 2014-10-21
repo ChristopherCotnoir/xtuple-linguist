@@ -7395,6 +7395,10 @@
           "target": "ఏ అర్హత చర్యలు"
         },
         {
+          "key": "_noItemFound",
+          "source": "No item found"
+        },
+        {
           "key": "_none",
           "source": "None",
           "target": "ఏమీ కాదు"
@@ -10251,7 +10255,7 @@
         },
         {
           "key": "_generatingPrivateKey",
-          "source": "A new keypair will be generated for this OAUTH2 client. The public key will be saved in the database with this client. The private key is available as a one-time download. The password for the key store file will be \"notasecret\". Click \"ok\" to downloading the private key.",
+          "source": "A new keypair will be generated for this OAUTH2 client. The public key will be available in the future with this client. The private key is only available now as a one-time download. Note that this process can take up to a minute. Please wait until the key is downloaded.",
           "target": "ఒక కొత్త keypair ఈ OAuth2 క్లయింట్ కోసం ఉత్పత్తి అవుతుంది. పబ్లిక్ కీ ఈ క్లయింట్ తో డేటాబేస్ లో భద్రపరచబడుతుంది. ప్రైవేట్ కీ ఒక సమయం దిగుమతి అందుబాటులో ఉంది. కీ స్టోర్ ఫైలు కోసం పాస్వర్డ్ను &quot;notasecret&quot; ఉంటుంది. ప్రైవేట్ కీ డౌన్లోడ్ కోసం తెరవండి &quot;OK&quot; అని క్లిక్ చెయ్యండి"
         },
         {
