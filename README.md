@@ -1,7 +1,7 @@
 xtuple-linguist
 ===============
 
-This is where translation files for the xTuple webapp are kept. 
+This is where translation files for the xTuple Web app are kept. For information about translating the xTuple Desktop client, please go here: http://www.xtuple.org/translate. 
 
 With every release, we augment these files with the latest translatable strings from the app.
 We use an [automated service](http://translate.google.com) to do the first pass, and rely on
