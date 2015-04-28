@@ -860,6 +860,11 @@
           "target": "El crédito Holding"
         },
         {
+          "key": "_creditHoldType",
+          "source": "Credit Hold",
+          "target": "Retención de Crédito"
+        },
+        {
           "key": "_creditLimit",
           "source": "Credit Limit",
           "target": "Límite de Crédito"
@@ -1068,6 +1073,11 @@
           "key": "_defaultHoldType",
           "source": "Default Hold Type",
           "target": "Tipo predeterminado Hold"
+        },
+        {
+          "key": "_defaultPrinter",
+          "source": "Default Printer",
+          "target": "Impresora predeterminada"
         },
         {
           "key": "_defaults",
@@ -2450,6 +2460,11 @@
           "target": "Mantener preferencias personales"
         },
         {
+          "key": "_maintainPrinters",
+          "source": "Maintain Printers",
+          "target": "Mantener Impresoras"
+        },
+        {
           "key": "_maintainProductCategories",
           "source": "Maintain Product Categories",
           "target": "Mantener Categorías de productos"
@@ -2830,6 +2845,11 @@
           "target": "Sin caducidad"
         },
         {
+          "key": "_noItemFoundForScan",
+          "source": "No item found for scan: ",
+          "target": "No hay resultados para exploración artículo:"
+        },
+        {
           "key": "_noJobTitle",
           "source": "No Job Title",
           "target": "No Título del trabajo"
@@ -2898,6 +2918,11 @@
           "key": "_noSalesRep",
           "source": "No Sales Rep",
           "target": "No Sales Rep"
+        },
+        {
+          "key": "_noSched.",
+          "source": "No Sched.",
+          "target": "No Serv."
         },
         {
           "key": "_noSchedule",
@@ -3160,6 +3185,11 @@
           "target": "Embalaje"
         },
         {
+          "key": "_packingHoldType",
+          "source": "Packing Hold",
+          "target": "Hold Embalaje"
+        },
+        {
           "key": "_paid",
           "source": "Paid",
           "target": "Pagado"
@@ -3305,14 +3335,39 @@
           "target": "Email Primaria"
         },
         {
+          "key": "_printAcknowledgement",
+          "source": "Print Acknowledgement",
+          "target": "Imprimir Reconocimiento"
+        },
+        {
           "key": "_printed",
           "source": "Printed",
           "target": "Impreso"
         },
         {
+          "key": "_printer",
+          "source": "Printer",
+          "target": "Impresora"
+        },
+        {
+          "key": "_printers",
+          "source": "Printers",
+          "target": "Impresoras"
+        },
+        {
           "key": "_printOnSave",
           "source": "Print on Save",
           "target": "Imprimir en Guardar"
+        },
+        {
+          "key": "_printPickList",
+          "source": "Print Picklist",
+          "target": "Imprimir lista de selección"
+        },
+        {
+          "key": "_printSettings",
+          "source": "Print Settings",
+          "target": "Ajustes de impresión"
         },
         {
           "key": "_priorities",
@@ -3590,6 +3645,11 @@
           "target": "Responder a"
         },
         {
+          "key": "_req.",
+          "source": "Req.",
+          "target": "Req."
+        },
+        {
           "key": "_requireCCV",
           "source": "Require CCV",
           "target": "Requerir CCV"
@@ -3620,6 +3680,11 @@
           "target": "Retorno"
         },
         {
+          "key": "_returnAuthorization",
+          "source": "Return Authorization",
+          "target": "Autorización de Retorno"
+        },
+        {
           "key": "_returnDate",
           "source": "Return Date",
           "target": "Fecha de Regreso"
@@ -3628,6 +3693,11 @@
           "key": "_returned",
           "source": "Returned",
           "target": "Devuelto"
+        },
+        {
+          "key": "_returnHoldType",
+          "source": "Return Hold",
+          "target": "Retener Retorno"
         },
         {
           "key": "_returnLine",
@@ -3848,6 +3918,11 @@
           "key": "_shipping",
           "source": "Shipping",
           "target": "Envío"
+        },
+        {
+          "key": "_shippingHoldType",
+          "source": "Shipping Hold",
+          "target": "Retener el envío"
         },
         {
           "key": "_shippingNotes",
@@ -7060,9 +7135,19 @@
           "target": "Diseño actual"
         },
         {
+          "key": "_cust#",
+          "source": "Cust #",
+          "target": "Cust #"
+        },
+        {
           "key": "_dashboard",
           "source": "Dashboard",
           "target": "Salpicadero"
+        },
+        {
+          "key": "_dashboardLite",
+          "source": "Dashboard Lite",
+          "target": "Dashboard Lite"
         },
         {
           "key": "_datasourceError",
@@ -7396,7 +7481,8 @@
         },
         {
           "key": "_noItemFound",
-          "source": "No item found"
+          "source": "No item found",
+          "target": "Ningún artículo encontrado"
         },
         {
           "key": "_none",
@@ -7437,6 +7523,11 @@
           "key": "_openNewTab",
           "source": "New Tab",
           "target": "Nueva pestaña"
+        },
+        {
+          "key": "_ord#",
+          "source": "Ord #",
+          "target": "Ord #"
         },
         {
           "key": "_orderWithActivityNoUnrelease",
@@ -7627,6 +7718,11 @@
           "key": "_saving",
           "source": "Saving",
           "target": "Ahorro"
+        },
+        {
+          "key": "_scheddate",
+          "source": "Sched Date",
+          "target": "Fecha Sched"
         },
         {
           "key": "_search",
@@ -8229,6 +8325,11 @@
           "target": "Aprobar para facturación"
         },
         {
+          "key": "_atReceiving",
+          "source": "At Receiving",
+          "target": "En recepción"
+        },
+        {
           "key": "_atShipping",
           "source": "At Shipping",
           "target": "En el envío"
@@ -8364,6 +8465,11 @@
           "target": "Predeterminado"
         },
         {
+          "key": "_defaultToTarget",
+          "source": "Set Target Location as Default",
+          "target": "Establecer ubicación de destino como predeterminado"
+        },
+        {
           "key": "_defaultTransitSite",
           "source": "Default Transit Site",
           "target": "Predeterminado Tránsito"
@@ -8464,6 +8570,16 @@
           "target": "No haga caso de reorden a cero"
         },
         {
+          "key": "_inStock",
+          "source": "In Stock",
+          "target": "Disponible"
+        },
+        {
+          "key": "_inTruck",
+          "source": "In Truck",
+          "target": "En Camión"
+        },
+        {
           "key": "_inventory",
           "source": "Inventory",
           "target": "Inventario"
@@ -8497,6 +8613,11 @@
           "key": "_isAutoRegister",
           "source": "Auto Register",
           "target": "Auto Registrarse"
+        },
+        {
+          "key": "_isDefaultTransitSite",
+          "source": "Default Transit Site",
+          "target": "Predeterminado Tránsito"
         },
         {
           "key": "_isIssueLocationAuto",
@@ -8634,6 +8755,16 @@
           "target": "Zonas de Uso de la Fuerza"
         },
         {
+          "key": "_item:",
+          "source": "Item: ",
+          "target": "Artículo:"
+        },
+        {
+          "key": "_itemScanReqMessage",
+          "source": "Item scan required first. No match for: ",
+          "target": "Exploración artículo requiere primero. No hay resultados para:"
+        },
+        {
           "key": "_itemSettings",
           "source": "Item Settings",
           "target": "Opción Ajustes"
@@ -8654,6 +8785,11 @@
           "target": "Componentes del Kit Heredar COS de Kit de Padres"
         },
         {
+          "key": "_line",
+          "source": "Line",
+          "target": "Línea"
+        },
+        {
           "key": "_lineItemAtShipping",
           "source": "This line item currently has stock issued to shipping and can not be closed at this time.",
           "target": "Esta línea cuenta actualmente con acciones emitidas para el envío y no se puede cerrar en este momento."
@@ -8667,6 +8803,11 @@
           "key": "_location",
           "source": "Location",
           "target": "Ubicación"
+        },
+        {
+          "key": "_location:",
+          "source": "Location: ",
+          "target": "Ubicación:"
         },
         {
           "key": "_locationComment",
@@ -8684,6 +8825,16 @@
           "target": "Ubicaciones"
         },
         {
+          "key": "_locationScanReqMessage",
+          "source": "Location scan required first. No match for: ",
+          "target": "Exploración Localización requiere primero. No hay resultados para:"
+        },
+        {
+          "key": "_locationsMustDiffer",
+          "source": "Please select different Locations for the Source and Target.",
+          "target": "Por favor, seleccione diferentes ubicaciones para el origen y el destino."
+        },
+        {
           "key": "_lookAhead",
           "source": "Look Ahead",
           "target": "Mirar al futuro"
@@ -8692,6 +8843,11 @@
           "key": "_lot",
           "source": "Lot",
           "target": "Mucho"
+        },
+        {
+          "key": "_lot:",
+          "source": "Lot: ",
+          "target": "Lote:"
         },
         {
           "key": "_LotSerialControl",
@@ -8849,9 +9005,19 @@
           "target": "MultipleOrder"
         },
         {
+          "key": "_orderPackHold",
+          "source": "The selected order is on Packing Hold and must be taken off hold before it can be Issued to Shipping",
+          "target": "El orden seleccionado está en espera de embalaje y debe tomarse retenida antes de que pueda ser hecha al envío"
+        },
+        {
           "key": "_orders",
           "source": "Orders",
           "target": "Órdenes"
+        },
+        {
+          "key": "_orderShipHold",
+          "source": "The selected order is on Shipping Hold and must be taken off hold before it can be Shipped",
+          "target": "El orden seleccionado está en espera del envío y debe tomarse retenida antes de que pueda ser enviado"
         },
         {
           "key": "_orderTo",
@@ -8862,6 +9028,11 @@
           "key": "_orderToQuantity",
           "source": "Order To",
           "target": "Pida a"
+        },
+        {
+          "key": "_outOfStock",
+          "source": "Out of Stock",
+          "target": "Agotado"
         },
         {
           "key": "_pack",
@@ -8877,6 +9048,11 @@
           "key": "_physicalInventory",
           "source": "Physical Inventory (Counting)",
           "target": "Inventario físico (contaje)"
+        },
+        {
+          "key": "_pickFrom",
+          "source": "Pick from:  ",
+          "target": "Elija entre:"
         },
         {
           "key": "_planned",
@@ -8972,6 +9148,26 @@
           "key": "_purchaseRequests",
           "source": "Purchase Requests",
           "target": "Solicitudes de compra"
+        },
+        {
+          "key": "_qoh",
+          "source": "QOH",
+          "target": "QOH"
+        },
+        {
+          "key": "_qoh+unit",
+          "source": "QOH + Unit",
+          "target": "Unidad QOH +"
+        },
+        {
+          "key": "_qohOther",
+          "source": "QOH Other",
+          "target": "QOH Otros"
+        },
+        {
+          "key": "_qty",
+          "source": "Qty.",
+          "target": "Cant."
         },
         {
           "key": "_qtyAfter",
@@ -9074,6 +9270,11 @@
           "target": "Trasladarse"
         },
         {
+          "key": "_relocateInventory",
+          "source": "Relocate Inventory",
+          "target": "Reubicar Inventario"
+        },
+        {
           "key": "_reorder",
           "source": "Reorder",
           "target": "Reordenar"
@@ -9149,9 +9350,24 @@
           "target": "¿Quieres guardar su trabajo antes de continuar?"
         },
         {
+          "key": "_schedDate",
+          "source": "Sched. Date",
+          "target": "Serv. Fecha"
+        },
+        {
           "key": "_schedulingSequence",
           "source": "Scheduling Sequence",
           "target": "Secuencia de Programación"
+        },
+        {
+          "key": "_scrapTransaction",
+          "source": "Scrap Transaction",
+          "target": "Transacción Scrap"
+        },
+        {
+          "key": "_selectLocation",
+          "source": "You must select a From and To Location",
+          "target": "Debe seleccionar un De y Ubicación"
         },
         {
           "key": "_serial",
@@ -9464,6 +9680,11 @@
           "target": "Los costos estándar"
         },
         {
+          "key": "_validDefaultLocation",
+          "source": "Valid default location(s) must be selected to distribute existing inventory to.",
+          "target": "Ubicación predeterminada Válido (s) debe ser seleccionado como distribuidor de inventario existente a."
+        },
+        {
           "key": "_valueAfter",
           "source": "Value After",
           "target": "Valor Después"
@@ -9534,9 +9755,9 @@
           "target": "El espacio de trabajo para este tipo de orden aún no es compatible."
         },
         {
-          "key": "isDefaultTransitSite",
-          "source": "Default Transit Site",
-          "target": "Predeterminado Tránsito"
+          "key": "_zeroDetailQOH",
+          "source": "There are no detail records with qty to distribute from in stock.",
+          "target": "No hay registros de detalle con el qty para distribuir a partir en stock."
         }
       ]
     },
@@ -9569,11 +9790,6 @@
           "target": "Cambiar la cantidad"
         },
         {
-          "key": "_closeOnPost",
-          "source": "Close on Post",
-          "target": "Cerrar el mensaje"
-        },
-        {
           "key": "_closeWorkOrder",
           "source": "Are you sure you want to Close this Work Order?",
           "target": "¿Está seguro que desea cerrar esta orden de trabajo?"
@@ -9602,6 +9818,11 @@
           "key": "_deleteWorkOrders",
           "source": "Delete",
           "target": "Borrar"
+        },
+        {
+          "key": "_directLabor",
+          "source": "Direct Labor",
+          "target": "Trabajo directo"
         },
         {
           "key": "_disassembly",
@@ -9674,6 +9895,11 @@
           "target": "Materiales BackFlush"
         },
         {
+          "key": "_isCloseOnPost",
+          "source": "Close on Post",
+          "target": "Cerrar en el poste"
+        },
+        {
           "key": "_isConfigured",
           "source": "Configured",
           "target": "Configurado"
@@ -9682,6 +9908,16 @@
           "key": "_isReceiveInventory",
           "source": "Receive Inventory",
           "target": "Recibe Inventario"
+        },
+        {
+          "key": "_isReportRun",
+          "source": "Report Run Time",
+          "target": "Hora del informe Run"
+        },
+        {
+          "key": "_isReportSetup",
+          "source": "Report Setup Time",
+          "target": "Informe de configuración Tiempo"
         },
         {
           "key": "_isScheduleAtOperation",
@@ -9697,6 +9933,11 @@
           "key": "_issueMethod",
           "source": "Issue Method",
           "target": "Método de emisión"
+        },
+        {
+          "key": "_issueReturnMaterial",
+          "source": "Issue/Return Material",
+          "target": "Edición / devolución de material"
         },
         {
           "key": "_issueWoMaterials",
@@ -9722,6 +9963,11 @@
           "key": "_lateStart",
           "source": "Late Start",
           "target": "Late Start"
+        },
+        {
+          "key": "_maintainStandardOperations",
+          "source": "Maintain Standard Operation",
+          "target": "Mantener Operación Estándar"
         },
         {
           "key": "_maintainWorkOrderEmailProfiles",
@@ -9772,6 +10018,11 @@
           "key": "_materialUnit",
           "source": "Material Unit",
           "target": "Unidad de Materiales"
+        },
+        {
+          "key": "_method",
+          "source": "Method.",
+          "target": "Método."
         },
         {
           "key": "_min",
@@ -9849,6 +10100,16 @@
           "target": "Operación"
         },
         {
+          "key": "_operationType",
+          "source": "Operation Type",
+          "target": "Tipo de operación"
+        },
+        {
+          "key": "_operationTypes",
+          "source": "Operation Types",
+          "target": "Tipos de operación"
+        },
+        {
           "key": "_operationUnit",
           "source": "Operation Unit",
           "target": "Unidad de Operación"
@@ -9867,6 +10128,11 @@
           "key": "_overdue",
           "source": "Overdue",
           "target": "Atrasado"
+        },
+        {
+          "key": "_overhead",
+          "source": "Overhead",
+          "target": "Gastos generales"
         },
         {
           "key": "_parentOrderRequired",
@@ -9904,9 +10170,24 @@
           "target": "Postproducción"
         },
         {
+          "key": "_printLabelOnPost",
+          "source": "Print Label on Post",
+          "target": "Imprimir etiqueta en el poste"
+        },
+        {
           "key": "_production",
           "source": "Production",
           "target": "Producción"
+        },
+        {
+          "key": "_productionUnit",
+          "source": "Production UOM",
+          "target": "Producción UOM"
+        },
+        {
+          "key": "_productionUnitRatio",
+          "source": "Inv/Prod UOM ratio",
+          "target": "Relación Inv / Prod UOM"
         },
         {
           "key": "_proportional",
@@ -10019,6 +10300,11 @@
           "target": "Ejecute completa"
         },
         {
+          "key": "_runCostType",
+          "source": "Report Cost As",
+          "target": "Reportes de los costos Como"
+        },
+        {
           "key": "_runStarted",
           "source": "Run Started",
           "target": "Ejecute Iniciado"
@@ -10027,6 +10313,11 @@
           "key": "_runTime",
           "source": "Run Time",
           "target": "Tiempo de ejecución"
+        },
+        {
+          "key": "_runTimes",
+          "source": "Run Times",
+          "target": "Tiempos de Riego"
         },
         {
           "key": "_scheduling",
@@ -10054,6 +10345,11 @@
           "target": "Instalación completa"
         },
         {
+          "key": "_setupCostType",
+          "source": "Report Cost As",
+          "target": "Reportes de los costos Como"
+        },
+        {
           "key": "_setupStarted",
           "source": "Setup Started",
           "target": "Configuración Introducción"
@@ -10062,6 +10358,16 @@
           "key": "_setupTime",
           "source": "Setup Time",
           "target": "Tiempo de preparación"
+        },
+        {
+          "key": "_setupTimeRequired",
+          "source": "If you select Use Standard Times then please enter at least a Setup or a Run Time.",
+          "target": "Si selecciona Usar Standard Times, por favor, introduzca al menos una instalación o un tiempo de ejecución."
+        },
+        {
+          "key": "_setupTimes",
+          "source": "Setup Times",
+          "target": "Tiempos de preparación"
         },
         {
           "key": "_singleLevel",
@@ -10077,6 +10383,16 @@
           "key": "_standardOperation",
           "source": "Std. Operation",
           "target": "Std.. Operación"
+        },
+        {
+          "key": "_standardOperations",
+          "source": "Std. Operations",
+          "target": "Std. Operaciones"
+        },
+        {
+          "key": "_standardTimes",
+          "source": "Standard Times",
+          "target": "Standard Times"
         },
         {
           "key": "_started",
@@ -10119,6 +10435,16 @@
           "target": "Cantidad total"
         },
         {
+          "key": "_unclosedWorkOrders",
+          "source": "Unclosed Work Orders",
+          "target": "Órdenes de trabajo sin cerrar"
+        },
+        {
+          "key": "_unclosedWorkOrdersWip",
+          "source": "Unclosed Work Orders WIP Value",
+          "target": "Órdenes de trabajo no cerrados WIP Valor"
+        },
+        {
           "key": "_undistributed",
           "source": "Remaining to Distibute",
           "target": "Restante a Distibute"
@@ -10147,6 +10473,11 @@
           "key": "_useFixedWidthFont",
           "source": "Use Fixed-Width Font",
           "target": "Utilice Fuente de ancho fijo"
+        },
+        {
+          "key": "_viewStandardOperations",
+          "source": "View Standard Operation",
+          "target": "Ver Operación Estándar"
         },
         {
           "key": "_viewWorkOrders",
@@ -10182,6 +10513,11 @@
           "key": "_workCenter",
           "source": "Work Center",
           "target": "Centro de trabajo"
+        },
+        {
+          "key": "_workCenterRequired",
+          "source": "A Work Center must be defined.",
+          "target": "Un centro de trabajo debe definirse."
         },
         {
           "key": "_workOrder",
@@ -10715,7 +11051,7 @@
         },
         {
           "key": "_purchaseOrderWorkflow",
-          "source": "Purchase Workflow",
+          "source": "Purchase Order Workflow",
           "target": "Compra de flujo de trabajo"
         },
         {
@@ -10777,6 +11113,11 @@
           "key": "_transactedPoNotUnreleased",
           "source": "This Purchase Order has transactions and can not be Unreleased.",
           "target": "Esta orden de compra tiene transacciones y no puede ser Unreleased."
+        },
+        {
+          "key": "_unclosedPurchaseOrders",
+          "source": "Unclosed Purchase Orders",
+          "target": "Órdenes de compra no cerrados"
         },
         {
           "key": "_unitRatio",
@@ -10872,11 +11213,6 @@
           "key": "_bookings",
           "source": "Bookings",
           "target": "Reservas"
-        },
-        {
-          "key": "_bookingsNext30Days",
-          "source": "Bookings Next 30 Days",
-          "target": "Reservas próximos 30 días"
         },
         {
           "key": "_convert",
@@ -10994,6 +11330,11 @@
           "target": "Mantener Ventas Perfiles de correo electrónico"
         },
         {
+          "key": "_pastDueSalesOrders",
+          "source": "Past Due Sales Orders",
+          "target": "Órdenes de venta Vencida"
+        },
+        {
           "key": "_postCustomerChanges",
           "source": "Post Customer Changes",
           "target": "Publicar cambios Cliente"
@@ -11082,6 +11423,16 @@
           "key": "_salesOrderAck",
           "source": "Sales Order Acknowledgement",
           "target": "Ventas Orden de Reconocimiento"
+        },
+        {
+          "key": "_salesOrdersNext30Days",
+          "source": "Sales Orders Next 30 Days",
+          "target": "Órdenes de venta próximos 30 días"
+        },
+        {
+          "key": "_salesOrderWorkflow",
+          "source": "Sales Order Workflow",
+          "target": "Pedido de cliente de flujo de trabajo"
         },
         {
           "key": "_scheduled",
