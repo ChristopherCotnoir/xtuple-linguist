@@ -860,6 +860,11 @@
           "target": "信用控股"
         },
         {
+          "key": "_creditHoldType",
+          "source": "Credit Hold",
+          "target": "信贷保持"
+        },
+        {
           "key": "_creditLimit",
           "source": "Credit Limit",
           "target": "信用额度"
@@ -1068,6 +1073,11 @@
           "key": "_defaultHoldType",
           "source": "Default Hold Type",
           "target": "默认的保留类型"
+        },
+        {
+          "key": "_defaultPrinter",
+          "source": "Default Printer",
+          "target": "默认打印机"
         },
         {
           "key": "_defaults",
@@ -2450,6 +2460,11 @@
           "target": "保持个人喜好"
         },
         {
+          "key": "_maintainPrinters",
+          "source": "Maintain Printers",
+          "target": "维护打印机"
+        },
+        {
           "key": "_maintainProductCategories",
           "source": "Maintain Product Categories",
           "target": "保持产品分类"
@@ -2830,6 +2845,11 @@
           "target": "不失效"
         },
         {
+          "key": "_noItemFoundForScan",
+          "source": "No item found for scan: ",
+          "target": "未找到扫描项目："
+        },
+        {
           "key": "_noJobTitle",
           "source": "No Job Title",
           "target": "无职称"
@@ -2898,6 +2918,11 @@
           "key": "_noSalesRep",
           "source": "No Sales Rep",
           "target": "无销售代表"
+        },
+        {
+          "key": "_noSched.",
+          "source": "No Sched.",
+          "target": "无章附表。"
         },
         {
           "key": "_noSchedule",
@@ -3160,6 +3185,11 @@
           "target": "填料"
         },
         {
+          "key": "_packingHoldType",
+          "source": "Packing Hold",
+          "target": "包装保持"
+        },
+        {
           "key": "_paid",
           "source": "Paid",
           "target": "支付"
@@ -3305,14 +3335,39 @@
           "target": "主要电子邮件"
         },
         {
+          "key": "_printAcknowledgement",
+          "source": "Print Acknowledgement",
+          "target": "打印确认"
+        },
+        {
           "key": "_printed",
           "source": "Printed",
           "target": "印刷的"
         },
         {
+          "key": "_printer",
+          "source": "Printer",
+          "target": "打印机"
+        },
+        {
+          "key": "_printers",
+          "source": "Printers",
+          "target": "打印机"
+        },
+        {
           "key": "_printOnSave",
           "source": "Print on Save",
           "target": "打印保存"
+        },
+        {
+          "key": "_printPickList",
+          "source": "Print Picklist",
+          "target": "打印领料"
+        },
+        {
+          "key": "_printSettings",
+          "source": "Print Settings",
+          "target": "打印设置"
         },
         {
           "key": "_priorities",
@@ -3590,6 +3645,11 @@
           "target": "回复"
         },
         {
+          "key": "_req.",
+          "source": "Req.",
+          "target": "所需物品。"
+        },
+        {
           "key": "_requireCCV",
           "source": "Require CCV",
           "target": "需要CCV"
@@ -3620,6 +3680,11 @@
           "target": "回归"
         },
         {
+          "key": "_returnAuthorization",
+          "source": "Return Authorization",
+          "target": "退货授权"
+        },
+        {
           "key": "_returnDate",
           "source": "Return Date",
           "target": "返回日期"
@@ -3628,6 +3693,11 @@
           "key": "_returned",
           "source": "Returned",
           "target": "返回"
+        },
+        {
+          "key": "_returnHoldType",
+          "source": "Return Hold",
+          "target": "返回保持"
         },
         {
           "key": "_returnLine",
@@ -3848,6 +3918,11 @@
           "key": "_shipping",
           "source": "Shipping",
           "target": "航运"
+        },
+        {
+          "key": "_shippingHoldType",
+          "source": "Shipping Hold",
+          "target": "船舶保持"
         },
         {
           "key": "_shippingNotes",
@@ -7060,9 +7135,19 @@
           "target": "当前布局"
         },
         {
+          "key": "_cust#",
+          "source": "Cust #",
+          "target": "卡斯特＃"
+        },
+        {
           "key": "_dashboard",
           "source": "Dashboard",
           "target": "仪表盘"
+        },
+        {
+          "key": "_dashboardLite",
+          "source": "Dashboard Lite",
+          "target": "仪表盘精简版"
         },
         {
           "key": "_datasourceError",
@@ -7396,7 +7481,8 @@
         },
         {
           "key": "_noItemFound",
-          "source": "No item found"
+          "source": "No item found",
+          "target": "未发现商品"
         },
         {
           "key": "_none",
@@ -7437,6 +7523,11 @@
           "key": "_openNewTab",
           "source": "New Tab",
           "target": "新标签"
+        },
+        {
+          "key": "_ord#",
+          "source": "Ord #",
+          "target": "奥德＃"
         },
         {
           "key": "_orderWithActivityNoUnrelease",
@@ -7627,6 +7718,11 @@
           "key": "_saving",
           "source": "Saving",
           "target": "节约"
+        },
+        {
+          "key": "_scheddate",
+          "source": "Sched Date",
+          "target": "附表日期"
         },
         {
           "key": "_search",
@@ -8229,6 +8325,11 @@
           "target": "批准计费"
         },
         {
+          "key": "_atReceiving",
+          "source": "At Receiving",
+          "target": "在接收"
+        },
+        {
           "key": "_atShipping",
           "source": "At Shipping",
           "target": "在送货"
@@ -8364,6 +8465,11 @@
           "target": "默认站点"
         },
         {
+          "key": "_defaultToTarget",
+          "source": "Set Target Location as Default",
+          "target": "设置目标位置为默认"
+        },
+        {
           "key": "_defaultTransitSite",
           "source": "Default Transit Site",
           "target": "默认公交站点"
@@ -8464,6 +8570,16 @@
           "target": "忽略重新排序在零"
         },
         {
+          "key": "_inStock",
+          "source": "In Stock",
+          "target": "库存"
+        },
+        {
+          "key": "_inTruck",
+          "source": "In Truck",
+          "target": "在卡车"
+        },
+        {
           "key": "_inventory",
           "source": "Inventory",
           "target": "库存"
@@ -8497,6 +8613,11 @@
           "key": "_isAutoRegister",
           "source": "Auto Register",
           "target": "自动注册"
+        },
+        {
+          "key": "_isDefaultTransitSite",
+          "source": "Default Transit Site",
+          "target": "默认公交站点"
         },
         {
           "key": "_isIssueLocationAuto",
@@ -8634,6 +8755,16 @@
           "target": "强制使用区域"
         },
         {
+          "key": "_item:",
+          "source": "Item: ",
+          "target": "项目："
+        },
+        {
+          "key": "_itemScanReqMessage",
+          "source": "Item scan required first. No match for: ",
+          "target": "项目所需的扫描第一。敌不过："
+        },
+        {
           "key": "_itemSettings",
           "source": "Item Settings",
           "target": "项目设置"
@@ -8654,6 +8785,11 @@
           "target": "工具包组件继承自COS家长套件"
         },
         {
+          "key": "_line",
+          "source": "Line",
+          "target": "线"
+        },
+        {
           "key": "_lineItemAtShipping",
           "source": "This line item currently has stock issued to shipping and can not be closed at this time.",
           "target": "此项目目前已发行的航运股，不能在这个时候关闭。"
@@ -8667,6 +8803,11 @@
           "key": "_location",
           "source": "Location",
           "target": "位置"
+        },
+        {
+          "key": "_location:",
+          "source": "Location: ",
+          "target": "地点："
         },
         {
           "key": "_locationComment",
@@ -8684,6 +8825,16 @@
           "target": "地点"
         },
         {
+          "key": "_locationScanReqMessage",
+          "source": "Location scan required first. No match for: ",
+          "target": "所需位置扫描第一。敌不过："
+        },
+        {
+          "key": "_locationsMustDiffer",
+          "source": "Please select different Locations for the Source and Target.",
+          "target": "请选择不同位置的源和目标。"
+        },
+        {
           "key": "_lookAhead",
           "source": "Look Ahead",
           "target": "展望"
@@ -8692,6 +8843,11 @@
           "key": "_lot",
           "source": "Lot",
           "target": "很多"
+        },
+        {
+          "key": "_lot:",
+          "source": "Lot: ",
+          "target": "批号："
         },
         {
           "key": "_LotSerialControl",
@@ -8849,9 +9005,19 @@
           "target": "多重订单"
         },
         {
+          "key": "_orderPackHold",
+          "source": "The selected order is on Packing Hold and must be taken off hold before it can be Issued to Shipping",
+          "target": "选择的顺序是在包装保持，必须采取关闭抱才可以颁发给船舶"
+        },
+        {
           "key": "_orders",
           "source": "Orders",
           "target": "订单"
+        },
+        {
+          "key": "_orderShipHold",
+          "source": "The selected order is on Shipping Hold and must be taken off hold before it can be Shipped",
+          "target": "选择的顺序是航运保持，必须取下保持它才能发货"
         },
         {
           "key": "_orderTo",
@@ -8862,6 +9028,11 @@
           "key": "_orderToQuantity",
           "source": "Order To",
           "target": "为了"
+        },
+        {
+          "key": "_outOfStock",
+          "source": "Out of Stock",
+          "target": "缺货"
         },
         {
           "key": "_pack",
@@ -8877,6 +9048,11 @@
           "key": "_physicalInventory",
           "source": "Physical Inventory (Counting)",
           "target": "库存盘点（计数）"
+        },
+        {
+          "key": "_pickFrom",
+          "source": "Pick from:  ",
+          "target": "从挑选："
         },
         {
           "key": "_planned",
@@ -8972,6 +9148,26 @@
           "key": "_purchaseRequests",
           "source": "Purchase Requests",
           "target": "采购申请"
+        },
+        {
+          "key": "_qoh",
+          "source": "QOH",
+          "target": "QOH"
+        },
+        {
+          "key": "_qoh+unit",
+          "source": "QOH + Unit",
+          "target": "QOH +单位"
+        },
+        {
+          "key": "_qohOther",
+          "source": "QOH Other",
+          "target": "QOH其他"
+        },
+        {
+          "key": "_qty",
+          "source": "Qty.",
+          "target": "数量。"
         },
         {
           "key": "_qtyAfter",
@@ -9074,6 +9270,11 @@
           "target": "搬迁"
         },
         {
+          "key": "_relocateInventory",
+          "source": "Relocate Inventory",
+          "target": "搬迁库存"
+        },
+        {
           "key": "_reorder",
           "source": "Reorder",
           "target": "重新排序"
@@ -9149,9 +9350,24 @@
           "target": "你想保存你的工作，然后再继续？"
         },
         {
+          "key": "_schedDate",
+          "source": "Sched. Date",
+          "target": "章附表。日期"
+        },
+        {
           "key": "_schedulingSequence",
           "source": "Scheduling Sequence",
           "target": "调度序列"
+        },
+        {
+          "key": "_scrapTransaction",
+          "source": "Scrap Transaction",
+          "target": "废钢交易"
+        },
+        {
+          "key": "_selectLocation",
+          "source": "You must select a From and To Location",
+          "target": "你必须选择一个起始和结束位置"
         },
         {
           "key": "_serial",
@@ -9464,6 +9680,11 @@
           "target": "标准成本"
         },
         {
+          "key": "_validDefaultLocation",
+          "source": "Valid default location(s) must be selected to distribute existing inventory to.",
+          "target": "有效的默认位置（多个）的选择必须分配现有库存。"
+        },
+        {
           "key": "_valueAfter",
           "source": "Value After",
           "target": "值之后"
@@ -9534,9 +9755,9 @@
           "target": "目前还不支持在工作区该订单类型。"
         },
         {
-          "key": "isDefaultTransitSite",
-          "source": "Default Transit Site",
-          "target": "默认公交站点"
+          "key": "_zeroDetailQOH",
+          "source": "There are no detail records with qty to distribute from in stock.",
+          "target": "有没有详细的记录与数量从库存分布。"
         }
       ]
     },
@@ -9569,11 +9790,6 @@
           "target": "变动后数量"
         },
         {
-          "key": "_closeOnPost",
-          "source": "Close on Post",
-          "target": "关闭的帖子"
-        },
-        {
           "key": "_closeWorkOrder",
           "source": "Are you sure you want to Close this Work Order?",
           "target": "您确定要关闭工单？"
@@ -9602,6 +9818,11 @@
           "key": "_deleteWorkOrders",
           "source": "Delete",
           "target": "删除"
+        },
+        {
+          "key": "_directLabor",
+          "source": "Direct Labor",
+          "target": "直接人工"
         },
         {
           "key": "_disassembly",
@@ -9674,6 +9895,11 @@
           "target": "反吹材料"
         },
         {
+          "key": "_isCloseOnPost",
+          "source": "Close on Post",
+          "target": "收盘后"
+        },
+        {
           "key": "_isConfigured",
           "source": "Configured",
           "target": "配置"
@@ -9682,6 +9908,16 @@
           "key": "_isReceiveInventory",
           "source": "Receive Inventory",
           "target": "接收库存"
+        },
+        {
+          "key": "_isReportRun",
+          "source": "Report Run Time",
+          "target": "报告运行时间"
+        },
+        {
+          "key": "_isReportSetup",
+          "source": "Report Setup Time",
+          "target": "报告设置时间"
         },
         {
           "key": "_isScheduleAtOperation",
@@ -9697,6 +9933,11 @@
           "key": "_issueMethod",
           "source": "Issue Method",
           "target": "发行方式"
+        },
+        {
+          "key": "_issueReturnMaterial",
+          "source": "Issue/Return Material",
+          "target": "问题/退货"
         },
         {
           "key": "_issueWoMaterials",
@@ -9722,6 +9963,11 @@
           "key": "_lateStart",
           "source": "Late Start",
           "target": "后期开始"
+        },
+        {
+          "key": "_maintainStandardOperations",
+          "source": "Maintain Standard Operation",
+          "target": "维持标准操作"
         },
         {
           "key": "_maintainWorkOrderEmailProfiles",
@@ -9772,6 +10018,11 @@
           "key": "_materialUnit",
           "source": "Material Unit",
           "target": "材料单位"
+        },
+        {
+          "key": "_method",
+          "source": "Method.",
+          "target": "方法。"
         },
         {
           "key": "_min",
@@ -9849,6 +10100,16 @@
           "target": "作业"
         },
         {
+          "key": "_operationType",
+          "source": "Operation Type",
+          "target": "操作类型"
+        },
+        {
+          "key": "_operationTypes",
+          "source": "Operation Types",
+          "target": "操作类型"
+        },
+        {
           "key": "_operationUnit",
           "source": "Operation Unit",
           "target": "操作单位"
@@ -9867,6 +10128,11 @@
           "key": "_overdue",
           "source": "Overdue",
           "target": "过期的"
+        },
+        {
+          "key": "_overhead",
+          "source": "Overhead",
+          "target": "高架"
         },
         {
           "key": "_parentOrderRequired",
@@ -9904,9 +10170,24 @@
           "target": "后期制作"
         },
         {
+          "key": "_printLabelOnPost",
+          "source": "Print Label on Post",
+          "target": "在帖子打印标签"
+        },
+        {
           "key": "_production",
           "source": "Production",
           "target": "生产"
+        },
+        {
+          "key": "_productionUnit",
+          "source": "Production UOM",
+          "target": "生产UOM"
+        },
+        {
+          "key": "_productionUnitRatio",
+          "source": "Inv/Prod UOM ratio",
+          "target": "INV /生产比例计量单位"
         },
         {
           "key": "_proportional",
@@ -10019,6 +10300,11 @@
           "target": "运行完成"
         },
         {
+          "key": "_runCostType",
+          "source": "Report Cost As",
+          "target": "报告成本作为"
+        },
+        {
           "key": "_runStarted",
           "source": "Run Started",
           "target": "开始运行"
@@ -10026,6 +10312,11 @@
         {
           "key": "_runTime",
           "source": "Run Time",
+          "target": "运行时间"
+        },
+        {
+          "key": "_runTimes",
+          "source": "Run Times",
           "target": "运行时间"
         },
         {
@@ -10054,6 +10345,11 @@
           "target": "安装完成"
         },
         {
+          "key": "_setupCostType",
+          "source": "Report Cost As",
+          "target": "报告成本作为"
+        },
+        {
           "key": "_setupStarted",
           "source": "Setup Started",
           "target": "设置开始"
@@ -10062,6 +10358,16 @@
           "key": "_setupTime",
           "source": "Setup Time",
           "target": "建立时间"
+        },
+        {
+          "key": "_setupTimeRequired",
+          "source": "If you select Use Standard Times then please enter at least a Setup or a Run Time.",
+          "target": "如果您选择使用标准时间，那么请输入至少一个安装或运行时间。"
+        },
+        {
+          "key": "_setupTimes",
+          "source": "Setup Times",
+          "target": "设置时间"
         },
         {
           "key": "_singleLevel",
@@ -10077,6 +10383,16 @@
           "key": "_standardOperation",
           "source": "Std. Operation",
           "target": "标准。作业"
+        },
+        {
+          "key": "_standardOperations",
+          "source": "Std. Operations",
+          "target": "标准。操作"
+        },
+        {
+          "key": "_standardTimes",
+          "source": "Standard Times",
+          "target": "标准时间"
         },
         {
           "key": "_started",
@@ -10119,6 +10435,16 @@
           "target": "总数量"
         },
         {
+          "key": "_unclosedWorkOrders",
+          "source": "Unclosed Work Orders",
+          "target": "未封闭的工作单"
+        },
+        {
+          "key": "_unclosedWorkOrdersWip",
+          "source": "Unclosed Work Orders WIP Value",
+          "target": "未封闭的工作单WIP值"
+        },
+        {
           "key": "_undistributed",
           "source": "Remaining to Distibute",
           "target": "剩余Distibute"
@@ -10147,6 +10473,11 @@
           "key": "_useFixedWidthFont",
           "source": "Use Fixed-Width Font",
           "target": "使用固定宽度字体"
+        },
+        {
+          "key": "_viewStandardOperations",
+          "source": "View Standard Operation",
+          "target": "查看标准操作"
         },
         {
           "key": "_viewWorkOrders",
@@ -10182,6 +10513,11 @@
           "key": "_workCenter",
           "source": "Work Center",
           "target": "工作中心"
+        },
+        {
+          "key": "_workCenterRequired",
+          "source": "A Work Center must be defined.",
+          "target": "工作中心必须定义。"
         },
         {
           "key": "_workOrder",
@@ -10715,7 +11051,7 @@
         },
         {
           "key": "_purchaseOrderWorkflow",
-          "source": "Purchase Workflow",
+          "source": "Purchase Order Workflow",
           "target": "购买流程"
         },
         {
@@ -10777,6 +11113,11 @@
           "key": "_transactedPoNotUnreleased",
           "source": "This Purchase Order has transactions and can not be Unreleased.",
           "target": "该采购订单有交易，不能未发行。"
+        },
+        {
+          "key": "_unclosedPurchaseOrders",
+          "source": "Unclosed Purchase Orders",
+          "target": "未关闭的采购订单"
         },
         {
           "key": "_unitRatio",
@@ -10872,11 +11213,6 @@
           "key": "_bookings",
           "source": "Bookings",
           "target": "预订"
-        },
-        {
-          "key": "_bookingsNext30Days",
-          "source": "Bookings Next 30 Days",
-          "target": "预订未来30天内"
         },
         {
           "key": "_convert",
@@ -10994,6 +11330,11 @@
           "target": "保持销售电子邮件配置文件"
         },
         {
+          "key": "_pastDueSalesOrders",
+          "source": "Past Due Sales Orders",
+          "target": "过去由于销售订单"
+        },
+        {
           "key": "_postCustomerChanges",
           "source": "Post Customer Changes",
           "target": "邮政客户变更"
@@ -11082,6 +11423,16 @@
           "key": "_salesOrderAck",
           "source": "Sales Order Acknowledgement",
           "target": "销售订单确认"
+        },
+        {
+          "key": "_salesOrdersNext30Days",
+          "source": "Sales Orders Next 30 Days",
+          "target": "销售订单接下来30天"
+        },
+        {
+          "key": "_salesOrderWorkflow",
+          "source": "Sales Order Workflow",
+          "target": "销售订单流程"
         },
         {
           "key": "_scheduled",

@@ -216,7 +216,7 @@
         },
         {
           "key": "_alterTransactionDates",
-          "source": "Alter Transaction Dates",
+          "source": "Alter Transartion Dates",
           "target": "Transaction తేదీలు మార్పు"
         },
         {
@@ -545,7 +545,7 @@
           "target": "క్లాస్ కోడ్"
         },
         {
-          "key": "_classCo	des",
+          "key": "_classCodes",
           "source": "Class Codes",
           "target": "క్లాస్ కోడ్స్"
         },
@@ -860,6 +860,11 @@
           "target": "క్రెడిట్ హోల్డ్"
         },
         {
+          "key": "_creditHoldType",
+          "source": "Credit Hold",
+          "target": "క్రెడిట్ కలిగి"
+        },
+        {
           "key": "_creditLimit",
           "source": "Credit Limit",
           "target": "క్రెడిట్ పరిమితి"
@@ -1068,6 +1073,11 @@
           "key": "_defaultHoldType",
           "source": "Default Hold Type",
           "target": "డిఫాల్ట్ హోల్డ్ టైప్"
+        },
+        {
+          "key": "_defaultPrinter",
+          "source": "Default Printer",
+          "target": "అప్రమేయ ప్రింటర్"
         },
         {
           "key": "_defaults",
@@ -2450,6 +2460,11 @@
           "target": "వ్యక్తిగత ప్రాధాన్యతలు నిర్వహించడానికి"
         },
         {
+          "key": "_maintainPrinters",
+          "source": "Maintain Printers",
+          "target": "ప్రింటర్స్ నిర్వహించడానికి"
+        },
+        {
           "key": "_maintainProductCategories",
           "source": "Maintain Product Categories",
           "target": "ఉత్పత్తి వర్గం నిర్వహించడానికి"
@@ -2830,6 +2845,11 @@
           "target": "సంఖ్య ముగింపు లేదు"
         },
         {
+          "key": "_noItemFoundForScan",
+          "source": "No item found for scan: ",
+          "target": "స్కాన్ ఏవీ కనుగొనబడలేదు అంశం:"
+        },
+        {
           "key": "_noJobTitle",
           "source": "No Job Title",
           "target": "ఏ  ఉద్యోగం టైటిల్ లేదు"
@@ -2898,6 +2918,11 @@
           "key": "_noSalesRep",
           "source": "No Sales Rep",
           "target": "ఏ సేల్స్ రెప్ లేదు"
+        },
+        {
+          "key": "_noSched.",
+          "source": "No Sched.",
+          "target": "సంఖ్య Sched."
         },
         {
           "key": "_noSchedule",
@@ -3160,6 +3185,11 @@
           "target": "ప్యాకింగ్"
         },
         {
+          "key": "_packingHoldType",
+          "source": "Packing Hold",
+          "target": "ప్యాకింగ్ హోల్డ్"
+        },
+        {
           "key": "_paid",
           "source": "Paid",
           "target": "చెల్లింపు"
@@ -3305,14 +3335,39 @@
           "target": "ప్రాథమిక ఇమెయిల్"
         },
         {
+          "key": "_printAcknowledgement",
+          "source": "Print Acknowledgement",
+          "target": "ప్రింట్ మనిషికి"
+        },
+        {
           "key": "_printed",
           "source": "Printed",
           "target": "ముద్రిత"
         },
         {
+          "key": "_printer",
+          "source": "Printer",
+          "target": "ప్రింటర్"
+        },
+        {
+          "key": "_printers",
+          "source": "Printers",
+          "target": "ప్రింటర్స్"
+        },
+        {
           "key": "_printOnSave",
           "source": "Print on Save",
           "target": "సేవ్ న ప్రింట్"
+        },
+        {
+          "key": "_printPickList",
+          "source": "Print Picklist",
+          "target": "Picklist ముద్రించు"
+        },
+        {
+          "key": "_printSettings",
+          "source": "Print Settings",
+          "target": "ముద్రణా సెట్టింగ్లను"
         },
         {
           "key": "_priorities",
@@ -3590,6 +3645,11 @@
           "target": "ప్రత్యుత్తరం"
         },
         {
+          "key": "_req.",
+          "source": "Req.",
+          "target": "Req."
+        },
+        {
           "key": "_requireCCV",
           "source": "Require CCV",
           "target": "CCV అవసరం"
@@ -3620,6 +3680,11 @@
           "target": "తిరిగి"
         },
         {
+          "key": "_returnAuthorization",
+          "source": "Return Authorization",
+          "target": "తిరిగి అధికార"
+        },
+        {
           "key": "_returnDate",
           "source": "Return Date",
           "target": "రిటర్న్ తేదీ"
@@ -3628,6 +3693,11 @@
           "key": "_returned",
           "source": "Returned",
           "target": "తిరిగి"
+        },
+        {
+          "key": "_returnHoldType",
+          "source": "Return Hold",
+          "target": "రిటర్న్ హోల్డ్"
         },
         {
           "key": "_returnLine",
@@ -3848,6 +3918,11 @@
           "key": "_shipping",
           "source": "Shipping",
           "target": "షిప్పింగ్"
+        },
+        {
+          "key": "_shippingHoldType",
+          "source": "Shipping Hold",
+          "target": "షిప్పింగ్ హోల్డ్"
         },
         {
           "key": "_shippingNotes",
@@ -7060,9 +7135,19 @@
           "target": "ప్రస్తుత లేఅవుట్"
         },
         {
+          "key": "_cust#",
+          "source": "Cust #",
+          "target": "Cust #"
+        },
+        {
           "key": "_dashboard",
           "source": "Dashboard",
           "target": "డాష్బోర్డ్"
+        },
+        {
+          "key": "_dashboardLite",
+          "source": "Dashboard Lite",
+          "target": "డాష్బోర్డ్ లైట్"
         },
         {
           "key": "_datasourceError",
@@ -7396,7 +7481,8 @@
         },
         {
           "key": "_noItemFound",
-          "source": "No item found"
+          "source": "No item found",
+          "target": "అంశం ఏదీ దొరకలేదు"
         },
         {
           "key": "_none",
@@ -7437,6 +7523,11 @@
           "key": "_openNewTab",
           "source": "New Tab",
           "target": "క్రొత్త టాబ్"
+        },
+        {
+          "key": "_ord#",
+          "source": "Ord #",
+          "target": "Ord #"
         },
         {
           "key": "_orderWithActivityNoUnrelease",
@@ -7627,6 +7718,11 @@
           "key": "_saving",
           "source": "Saving",
           "target": "సేవ్"
+        },
+        {
+          "key": "_scheddate",
+          "source": "Sched Date",
+          "target": "Sched తేదీ"
         },
         {
           "key": "_search",
@@ -8229,6 +8325,11 @@
           "target": "బిల్లింగ్ కోసం ఆమోదించండి"
         },
         {
+          "key": "_atReceiving",
+          "source": "At Receiving",
+          "target": "అందుకుంటోంది వద్ద"
+        },
+        {
           "key": "_atShipping",
           "source": "At Shipping",
           "target": "షిప్పింగ్ వద్ద"
@@ -8364,6 +8465,11 @@
           "target": "డిఫాల్ట్ సైట్"
         },
         {
+          "key": "_defaultToTarget",
+          "source": "Set Target Location as Default",
+          "target": "డిఫాల్ట్ టార్గెట్ నగర సెట్"
+        },
+        {
           "key": "_defaultTransitSite",
           "source": "Default Transit Site",
           "target": "డిఫాల్ట్ ట్రాన్సిట్ సైట్"
@@ -8464,6 +8570,16 @@
           "target": "జీరో వద్ద క్రమాన్ని మార్చు విస్మరించు"
         },
         {
+          "key": "_inStock",
+          "source": "In Stock",
+          "target": "స్టాక్ లో"
+        },
+        {
+          "key": "_inTruck",
+          "source": "In Truck",
+          "target": "ట్రక్ లో"
+        },
+        {
           "key": "_inventory",
           "source": "Inventory",
           "target": "జాబితా"
@@ -8497,6 +8613,11 @@
           "key": "_isAutoRegister",
           "source": "Auto Register",
           "target": "ఆటో నమోదు"
+        },
+        {
+          "key": "_isDefaultTransitSite",
+          "source": "Default Transit Site",
+          "target": "డిఫాల్ట్ రవాణా సైట్"
         },
         {
           "key": "_isIssueLocationAuto",
@@ -8634,6 +8755,16 @@
           "target": "ఫోర్స్ ఉపయోగించండి మండలాలు"
         },
         {
+          "key": "_item:",
+          "source": "Item: ",
+          "target": "అంశం:"
+        },
+        {
+          "key": "_itemScanReqMessage",
+          "source": "Item scan required first. No match for: ",
+          "target": "అంశం స్కాన్ మొదటి అవసరం. ఏ సరిపోలిక కోసం:"
+        },
+        {
           "key": "_itemSettings",
           "source": "Item Settings",
           "target": "అంశం సెట్టింగ్స్"
@@ -8654,6 +8785,11 @@
           "target": "కిట్ మాతృ నుండి కిట్ వారసత్వంగా COS"
         },
         {
+          "key": "_line",
+          "source": "Line",
+          "target": "లైన్"
+        },
+        {
           "key": "_lineItemAtShipping",
           "source": "This line item currently has stock issued to shipping and can not be closed at this time.",
           "target": "ఈ అంశం ప్రస్తుతం షిప్పింగ్ జారీ స్టాక్ ఉంది మరియు ఈ సమయంలో మూసివేయబడతాయి కాదు."
@@ -8667,6 +8803,11 @@
           "key": "_location",
           "source": "Location",
           "target": "నగర"
+        },
+        {
+          "key": "_location:",
+          "source": "Location: ",
+          "target": "స్థానం:"
         },
         {
           "key": "_locationComment",
@@ -8684,6 +8825,16 @@
           "target": "స్థానాలు"
         },
         {
+          "key": "_locationScanReqMessage",
+          "source": "Location scan required first. No match for: ",
+          "target": "స్థానం స్కాన్ మొదటి అవసరం. ఏ సరిపోలిక కోసం:"
+        },
+        {
+          "key": "_locationsMustDiffer",
+          "source": "Please select different Locations for the Source and Target.",
+          "target": "మూల మరియు టార్గెట్ కోసం వివిధ స్థానాలు ఎంచుకోండి."
+        },
+        {
           "key": "_lookAhead",
           "source": "Look Ahead",
           "target": "దేశభక్తిని"
@@ -8692,6 +8843,11 @@
           "key": "_lot",
           "source": "Lot",
           "target": "చాలా"
+        },
+        {
+          "key": "_lot:",
+          "source": "Lot: ",
+          "target": "లాట్:"
         },
         {
           "key": "_LotSerialControl",
@@ -8849,9 +9005,19 @@
           "target": "ఆర్డర్ బహుళ"
         },
         {
+          "key": "_orderPackHold",
+          "source": "The selected order is on Packing Hold and must be taken off hold before it can be Issued to Shipping",
+          "target": "ఎంపిక క్రమంలో ప్యాకింగ్ హోల్డ్ లో ఉంది మరియు ఇది షిప్పింగ్ కు ముందు జారీ చేయవచ్చు పట్టు ఆఫ్ తీసుకోవాలి"
+        },
+        {
           "key": "_orders",
           "source": "Orders",
           "target": "ఆర్డర్స్"
+        },
+        {
+          "key": "_orderShipHold",
+          "source": "The selected order is on Shipping Hold and must be taken off hold before it can be Shipped",
+          "target": "ఎంపిక క్రమంలో షిప్పింగ్ హోల్డ్ లో ఉంది మరియు ఇది రవాణా ముందు పట్టు ఆఫ్ తీసుకోవాలి"
         },
         {
           "key": "_orderTo",
@@ -8862,6 +9028,11 @@
           "key": "_orderToQuantity",
           "source": "Order To",
           "target": "చేయడానికి"
+        },
+        {
+          "key": "_outOfStock",
+          "source": "Out of Stock",
+          "target": "స్టాక్ యొక్క అవుట్"
         },
         {
           "key": "_pack",
@@ -8877,6 +9048,11 @@
           "key": "_physicalInventory",
           "source": "Physical Inventory (Counting)",
           "target": "భౌతిక జాబితా (కౌంటింగ్)"
+        },
+        {
+          "key": "_pickFrom",
+          "source": "Pick from:  ",
+          "target": "నుండి ఎంచుకోండి:"
         },
         {
           "key": "_planned",
@@ -8972,6 +9148,26 @@
           "key": "_purchaseRequests",
           "source": "Purchase Requests",
           "target": "కొనుగోలు అభ్యర్థనలు"
+        },
+        {
+          "key": "_qoh",
+          "source": "QOH",
+          "target": "QOH"
+        },
+        {
+          "key": "_qoh+unit",
+          "source": "QOH + Unit",
+          "target": "QOH + యూనిట్"
+        },
+        {
+          "key": "_qohOther",
+          "source": "QOH Other",
+          "target": "QOH ఇతర"
+        },
+        {
+          "key": "_qty",
+          "source": "Qty.",
+          "target": "ప్యాక్ చేసిన అంశాల."
         },
         {
           "key": "_qtyAfter",
@@ -9074,6 +9270,11 @@
           "target": "పోయి"
         },
         {
+          "key": "_relocateInventory",
+          "source": "Relocate Inventory",
+          "target": "ఇన్వెంటరీ తేల్చుకోగలరు"
+        },
+        {
           "key": "_reorder",
           "source": "Reorder",
           "target": "క్రమాన్ని మార్చు"
@@ -9149,9 +9350,24 @@
           "target": "కొనసాగించే ముందు మీరు మీ పనిని సేవ్ అనుకుంటున్నారా?"
         },
         {
+          "key": "_schedDate",
+          "source": "Sched. Date",
+          "target": "Sched. తేదీ"
+        },
+        {
           "key": "_schedulingSequence",
           "source": "Scheduling Sequence",
           "target": "షెడ్యూలింగ్ సీక్వెన్స్"
+        },
+        {
+          "key": "_scrapTransaction",
+          "source": "Scrap Transaction",
+          "target": "స్క్రాప్ ట్రాన్సాక్షన్"
+        },
+        {
+          "key": "_selectLocation",
+          "source": "You must select a From and To Location",
+          "target": "మీ నుండి మరియు స్థానానికి ఒక ఎంచుకోవాలి"
         },
         {
           "key": "_serial",
@@ -9464,6 +9680,11 @@
           "target": "ప్రామాణిక వ్యయాలు"
         },
         {
+          "key": "_validDefaultLocation",
+          "source": "Valid default location(s) must be selected to distribute existing inventory to.",
+          "target": "చెల్లుబాటు అయ్యే డిఫాల్ట్ స్థానం (లు) ఇప్పటికే జాబితా పంపిణీ తప్పక ఎంచుకోవాలి."
+        },
+        {
           "key": "_valueAfter",
           "source": "Value After",
           "target": "విలువ తరువాత"
@@ -9534,9 +9755,9 @@
           "target": "ఈ క్రమంలో రకం కోసం కార్యస్థలం ఇంకా మద్దతు లేదు."
         },
         {
-          "key": "isDefaultTransitSite",
-          "source": "Default Transit Site",
-          "target": "డిఫాల్ట్ ట్రాన్సిట్ సైట్"
+          "key": "_zeroDetailQOH",
+          "source": "There are no detail records with qty to distribute from in stock.",
+          "target": "స్టాక్ నుండి పంపిణీ చేసిన అంశాల తో ఎటువంటి వివరాలు రికార్డులు ఉన్నాయి."
         }
       ]
     },
@@ -9569,11 +9790,6 @@
           "target": "మార్చు పరిమాణం"
         },
         {
-          "key": "_closeOnPost",
-          "source": "Close on Post",
-          "target": "పోస్ట్ చేసిన Close"
-        },
-        {
           "key": "_closeWorkOrder",
           "source": "Are you sure you want to Close this Work Order?",
           "target": "మీరు ఈ పని ఆర్డర్ Close నిశ్చయించుకున్నారా?"
@@ -9602,6 +9818,11 @@
           "key": "_deleteWorkOrders",
           "source": "Delete",
           "target": "తొలగించు"
+        },
+        {
+          "key": "_directLabor",
+          "source": "Direct Labor",
+          "target": "ప్రత్యక్ష లేబర్"
         },
         {
           "key": "_disassembly",
@@ -9674,6 +9895,11 @@
           "target": "Backflush మెటీరియల్స్"
         },
         {
+          "key": "_isCloseOnPost",
+          "source": "Close on Post",
+          "target": "పోస్ట్ Close"
+        },
+        {
           "key": "_isConfigured",
           "source": "Configured",
           "target": "కాన్ఫిగర్"
@@ -9682,6 +9908,16 @@
           "key": "_isReceiveInventory",
           "source": "Receive Inventory",
           "target": "ఇన్వెంటరీ స్వీకరించండి"
+        },
+        {
+          "key": "_isReportRun",
+          "source": "Report Run Time",
+          "target": "నివేదిక అమలు సమయం"
+        },
+        {
+          "key": "_isReportSetup",
+          "source": "Report Setup Time",
+          "target": "నివేదిక సెటప్ సమయం"
         },
         {
           "key": "_isScheduleAtOperation",
@@ -9697,6 +9933,11 @@
           "key": "_issueMethod",
           "source": "Issue Method",
           "target": "ఇష్యూ విధానం"
+        },
+        {
+          "key": "_issueReturnMaterial",
+          "source": "Issue/Return Material",
+          "target": "ఇష్యూ / రిటర్న్ మెటీరియల్"
         },
         {
           "key": "_issueWoMaterials",
@@ -9722,6 +9963,11 @@
           "key": "_lateStart",
           "source": "Late Start",
           "target": "లేట్ ప్రారంభం"
+        },
+        {
+          "key": "_maintainStandardOperations",
+          "source": "Maintain Standard Operation",
+          "target": "ప్రామాణిక ఆపరేషన్ నిర్వహించడానికి"
         },
         {
           "key": "_maintainWorkOrderEmailProfiles",
@@ -9772,6 +10018,11 @@
           "key": "_materialUnit",
           "source": "Material Unit",
           "target": "మెటీరియల్ యూనిట్"
+        },
+        {
+          "key": "_method",
+          "source": "Method.",
+          "target": "పద్ధతి."
         },
         {
           "key": "_min",
@@ -9849,6 +10100,16 @@
           "target": "క్రియ"
         },
         {
+          "key": "_operationType",
+          "source": "Operation Type",
+          "target": "ఆపరేషన్ పద్ధతి"
+        },
+        {
+          "key": "_operationTypes",
+          "source": "Operation Types",
+          "target": "ఆపరేషన్ రకాలు"
+        },
+        {
           "key": "_operationUnit",
           "source": "Operation Unit",
           "target": "ఆపరేషన్ యూనిట్"
@@ -9867,6 +10128,11 @@
           "key": "_overdue",
           "source": "Overdue",
           "target": "మీరిన"
+        },
+        {
+          "key": "_overhead",
+          "source": "Overhead",
+          "target": "ఓవర్హెడ్"
         },
         {
           "key": "_parentOrderRequired",
@@ -9904,9 +10170,24 @@
           "target": "పోస్ట్ ప్రొడక్షన్"
         },
         {
+          "key": "_printLabelOnPost",
+          "source": "Print Label on Post",
+          "target": "పోస్ట్ ప్రింట్ లేబుల్"
+        },
+        {
           "key": "_production",
           "source": "Production",
           "target": "ఉత్పత్తి"
+        },
+        {
+          "key": "_productionUnit",
+          "source": "Production UOM",
+          "target": "ఉత్పత్తి UoM"
+        },
+        {
+          "key": "_productionUnitRatio",
+          "source": "Inv/Prod UOM ratio",
+          "target": "Inv / Prod UoM నిష్పత్తి"
         },
         {
           "key": "_proportional",
@@ -10019,6 +10300,11 @@
           "target": "పూర్తి అమలు"
         },
         {
+          "key": "_runCostType",
+          "source": "Report Cost As",
+          "target": "నివేదిక వ్యయంగా"
+        },
+        {
           "key": "_runStarted",
           "source": "Run Started",
           "target": "ప్రారంభ అమలు"
@@ -10027,6 +10313,11 @@
           "key": "_runTime",
           "source": "Run Time",
           "target": "రన్ సమయం"
+        },
+        {
+          "key": "_runTimes",
+          "source": "Run Times",
+          "target": "రన్ టైమ్స్"
         },
         {
           "key": "_scheduling",
@@ -10054,6 +10345,11 @@
           "target": "సెటప్ పూర్తి"
         },
         {
+          "key": "_setupCostType",
+          "source": "Report Cost As",
+          "target": "నివేదిక వ్యయంగా"
+        },
+        {
           "key": "_setupStarted",
           "source": "Setup Started",
           "target": "సెటప్ ప్రారంభ"
@@ -10062,6 +10358,16 @@
           "key": "_setupTime",
           "source": "Setup Time",
           "target": "సెటప్ సమయం"
+        },
+        {
+          "key": "_setupTimeRequired",
+          "source": "If you select Use Standard Times then please enter at least a Setup or a Run Time.",
+          "target": "మీరు ఉపయోగించండి ప్రామాణిక టైమ్స్ ఎంచుకుంటే అప్పుడు కనీసం ఒక సెటప్ లేదా ఒక రన్ టైమ్ ఎంటర్ చెయ్యండి."
+        },
+        {
+          "key": "_setupTimes",
+          "source": "Setup Times",
+          "target": "సెటప్ సార్లు"
         },
         {
           "key": "_singleLevel",
@@ -10077,6 +10383,16 @@
           "key": "_standardOperation",
           "source": "Std. Operation",
           "target": "కుమార్. క్రియ"
+        },
+        {
+          "key": "_standardOperations",
+          "source": "Std. Operations",
+          "target": "టీడీ. ఆపరేషన్స్"
+        },
+        {
+          "key": "_standardTimes",
+          "source": "Standard Times",
+          "target": "ప్రామాణిక టైమ్స్"
         },
         {
           "key": "_started",
@@ -10119,6 +10435,16 @@
           "target": "మొత్తం పరిమాణం"
         },
         {
+          "key": "_unclosedWorkOrders",
+          "source": "Unclosed Work Orders",
+          "target": "మూసివేయని వర్క్ ఆర్డర్స్"
+        },
+        {
+          "key": "_unclosedWorkOrdersWip",
+          "source": "Unclosed Work Orders WIP Value",
+          "target": "మూసివేయని వర్క్ ఆర్డర్స్ WIP విలువ"
+        },
+        {
           "key": "_undistributed",
           "source": "Remaining to Distibute",
           "target": "Distibute మిగిలిన"
@@ -10147,6 +10473,11 @@
           "key": "_useFixedWidthFont",
           "source": "Use Fixed-Width Font",
           "target": "ఉపయోగించండి స్థిర వెడల్పు ఫాంట్"
+        },
+        {
+          "key": "_viewStandardOperations",
+          "source": "View Standard Operation",
+          "target": "వీక్షణ ప్రామాణిక ఆపరేషన్"
         },
         {
           "key": "_viewWorkOrders",
@@ -10182,6 +10513,11 @@
           "key": "_workCenter",
           "source": "Work Center",
           "target": "పని సెంటర్"
+        },
+        {
+          "key": "_workCenterRequired",
+          "source": "A Work Center must be defined.",
+          "target": "ఒక పని సెంటర్ నిర్వచించబడి ఉండాలి."
         },
         {
           "key": "_workOrder",
@@ -10715,7 +11051,7 @@
         },
         {
           "key": "_purchaseOrderWorkflow",
-          "source": "Purchase Workflow",
+          "source": "Purchase Order Workflow",
           "target": "కొనుగోలు వర్క్ఫ్లో"
         },
         {
@@ -10777,6 +11113,11 @@
           "key": "_transactedPoNotUnreleased",
           "source": "This Purchase Order has transactions and can not be Unreleased.",
           "target": "ఈ కొనుగోలు ఆర్డర్ లావాదేవీలు మరియు విడుదల కాని ఉండకూడదు."
+        },
+        {
+          "key": "_unclosedPurchaseOrders",
+          "source": "Unclosed Purchase Orders",
+          "target": "మూసివేయని కొనుగోలు ఉత్తర్వులు"
         },
         {
           "key": "_unitRatio",
@@ -10872,11 +11213,6 @@
           "key": "_bookings",
           "source": "Bookings",
           "target": "బుకింగ్స్"
-        },
-        {
-          "key": "_bookingsNext30Days",
-          "source": "Bookings Next 30 Days",
-          "target": "బుకింగులు తదుపరి 30 డేస్"
         },
         {
           "key": "_convert",
@@ -10994,6 +11330,11 @@
           "target": "సేల్స్ ఇమెయిల్ ప్రొఫైల్స్ నిర్వహించడానికి"
         },
         {
+          "key": "_pastDueSalesOrders",
+          "source": "Past Due Sales Orders",
+          "target": "గత కారణంగా సేల్స్ ఆర్డర్స్"
+        },
+        {
           "key": "_postCustomerChanges",
           "source": "Post Customer Changes",
           "target": "పోస్ట్ కస్టమర్ మార్పులు"
@@ -11082,6 +11423,16 @@
           "key": "_salesOrderAck",
           "source": "Sales Order Acknowledgement",
           "target": "అమ్మకాల ఆర్డర్ అక్నాల్డెజ్మెంట్"
+        },
+        {
+          "key": "_salesOrdersNext30Days",
+          "source": "Sales Orders Next 30 Days",
+          "target": "సేల్స్ ఆర్డర్స్ తదుపరి 30 డేస్"
+        },
+        {
+          "key": "_salesOrderWorkflow",
+          "source": "Sales Order Workflow",
+          "target": "అమ్మకాల ఆర్డర్ వర్క్ఫ్లో"
         },
         {
           "key": "_scheduled",
