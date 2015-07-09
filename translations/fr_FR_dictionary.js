@@ -1175,6 +1175,11 @@
           "target": "Détail"
         },
         {
+          "key": "_detailScanNoMatch",
+          "source": "The detail scan found no match",
+          "target": "L&#39;analyse de détail trouvé aucune correspondance"
+        },
+        {
           "key": "_disableExport",
           "source": "Disable Export and Print",
           "target": "Désactiver l&#39;exportation et Imprimer"
@@ -2710,6 +2715,11 @@
           "target": "Divers"
         },
         {
+          "key": "_modelMissingMethod",
+          "source": "Model is missing method",
+          "target": "Modèle manque méthode"
+        },
+        {
           "key": "_module",
           "source": "Module",
           "target": "Module"
@@ -2728,6 +2738,11 @@
           "key": "_multiple",
           "source": "Multiple",
           "target": "Multiple"
+        },
+        {
+          "key": "_multipleDetailModels",
+          "source": "Multiple Detail Models have qty distributed",
+          "target": "Plusieurs modèles de détail ont distribué qté"
         },
         {
           "key": "_multipleOrderQuantity",
@@ -2908,6 +2923,11 @@
           "key": "_noPurchaseOrder",
           "source": "No Purchase Order Number",
           "target": "Aucun numéro de commande"
+        },
+        {
+          "key": "_noQtyToTransact",
+          "source": "There is no qty to transact",
+          "target": "Il n&#39;y a pas de transiger qté"
         },
         {
           "key": "_noReschedule",
@@ -3355,6 +3375,11 @@
           "target": "Imprimantes"
         },
         {
+          "key": "_printForm",
+          "source": "Print Form",
+          "target": "Imprimer le formulaire"
+        },
+        {
           "key": "_printOnSave",
           "source": "Print on Save",
           "target": "Imprimer sur Enregistrer"
@@ -3363,6 +3388,11 @@
           "key": "_printPickList",
           "source": "Print Picklist",
           "target": "Imprimer Picklist"
+        },
+        {
+          "key": "_printSalesOrderForm",
+          "source": "Print Sales Order Form",
+          "target": "Imprimer ventes Formulaire de commande"
         },
         {
           "key": "_printSettings",
@@ -3643,6 +3673,11 @@
           "key": "_replyTo",
           "source": "Reply To",
           "target": "Répondre"
+        },
+        {
+          "key": "_reportName",
+          "source": "Report Name",
+          "target": "Nom du rapport"
         },
         {
           "key": "_req.",
@@ -4363,6 +4398,11 @@
           "key": "_trigger",
           "source": "Trigger",
           "target": "Trigger"
+        },
+        {
+          "key": "_triggerWorkflow",
+          "source": "Create Default Workflows through Database Trigger",
+          "target": "Créer des workflows par défaut par le biais de la base de données Trigger"
         },
         {
           "key": "_twoYears",
@@ -9180,6 +9220,11 @@
           "target": "Quantité. Avant"
         },
         {
+          "key": "_qtyGreaterThanSource",
+          "source": "Qty is greater than source location qty available",
+          "target": "Quantité est supérieure à la source emplacement Qté disponible"
+        },
+        {
           "key": "_rack",
           "source": "Rack",
           "target": "Rack"
@@ -9393,6 +9438,11 @@
           "key": "_shipment",
           "source": "Shipment",
           "target": "Expédition"
+        },
+        {
+          "key": "_shipmentNumberNotFound",
+          "source": "Shipment not found. Issue qty to shipping before attempting to Ship.",
+          "target": "Envoi introuvable. Problème qté expédition avant de tenter d&#39;expédition."
         },
         {
           "key": "_shipmentNumberPolicy",
@@ -10175,6 +10225,31 @@
           "target": "Imprimer l&#39;étiquette sur le Post"
         },
         {
+          "key": "_printPackingList",
+          "source": "Print Packing List",
+          "target": "Imprimer Packing List"
+        },
+        {
+          "key": "_printRouting",
+          "source": "Print Routing",
+          "target": "Imprimer routage"
+        },
+        {
+          "key": "_printWorkOrderForm",
+          "source": "Print Work Order Form",
+          "target": "Imprimer travail Formulaire de commande"
+        },
+        {
+          "key": "_printWorkOrderLabel",
+          "source": "Print Work Order Label",
+          "target": "Imprimer Work Order Étiquette"
+        },
+        {
+          "key": "_printWorkOrderTraveler",
+          "source": "Print Work Order Traveler",
+          "target": "Imprimer Work Order voyageurs"
+        },
+        {
           "key": "_production",
           "source": "Production",
           "target": "Production"
@@ -10233,6 +10308,11 @@
           "key": "_released",
           "source": "Released",
           "target": "Libéré"
+        },
+        {
+          "key": "_releaseWorkOrder",
+          "source": "Release Work Order",
+          "target": "Sortie Ordre de travail"
         },
         {
           "key": "_releaseWorkOrders",

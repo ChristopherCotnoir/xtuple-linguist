@@ -1175,6 +1175,11 @@
           "target": "వివరముగా"
         },
         {
+          "key": "_detailScanNoMatch",
+          "source": "The detail scan found no match",
+          "target": "వివరాలు స్కాన్ ఏ మ్యాచ్ దొరకలేదు"
+        },
+        {
           "key": "_disableExport",
           "source": "Disable Export and Print",
           "target": "ఎగుమతి మరియు ముద్రణ ఆపివేయి"
@@ -2710,6 +2715,11 @@
           "target": "Miscellaneous"
         },
         {
+          "key": "_modelMissingMethod",
+          "source": "Model is missing method",
+          "target": "మోడల్ పద్ధతి లేదు"
+        },
+        {
           "key": "_module",
           "source": "Module",
           "target": "మాడ్యూల్"
@@ -2728,6 +2738,11 @@
           "key": "_multiple",
           "source": "Multiple",
           "target": "చాలా"
+        },
+        {
+          "key": "_multipleDetailModels",
+          "source": "Multiple Detail Models have qty distributed",
+          "target": "బహుళ వివరాలు మోడల్స్ చేసిన అంశాల పంపిణీ చేశారు"
         },
         {
           "key": "_multipleOrderQuantity",
@@ -2908,6 +2923,11 @@
           "key": "_noPurchaseOrder",
           "source": "No Purchase Order Number",
           "target": "ఏ కొనుగోలు ఆర్డర్ సంఖ్య లేదు"
+        },
+        {
+          "key": "_noQtyToTransact",
+          "source": "There is no qty to transact",
+          "target": "లావాదేవీలు ఎటువంటి చేసిన అంశాల ఉంది"
         },
         {
           "key": "_noReschedule",
@@ -3355,6 +3375,11 @@
           "target": "ప్రింటర్స్"
         },
         {
+          "key": "_printForm",
+          "source": "Print Form",
+          "target": "ప్రింట్ ఫారం"
+        },
+        {
           "key": "_printOnSave",
           "source": "Print on Save",
           "target": "సేవ్ న ప్రింట్"
@@ -3363,6 +3388,11 @@
           "key": "_printPickList",
           "source": "Print Picklist",
           "target": "Picklist ముద్రించు"
+        },
+        {
+          "key": "_printSalesOrderForm",
+          "source": "Print Sales Order Form",
+          "target": "అమ్మకాల ఆర్డర్ రూపం ప్రింట్"
         },
         {
           "key": "_printSettings",
@@ -3643,6 +3673,11 @@
           "key": "_replyTo",
           "source": "Reply To",
           "target": "ప్రత్యుత్తరం"
+        },
+        {
+          "key": "_reportName",
+          "source": "Report Name",
+          "target": "రిపోర్ట్ పేరు"
         },
         {
           "key": "_req.",
@@ -4363,6 +4398,11 @@
           "key": "_trigger",
           "source": "Trigger",
           "target": "ట్రిగ్గర్"
+        },
+        {
+          "key": "_triggerWorkflow",
+          "source": "Create Default Workflows through Database Trigger",
+          "target": "డేటాబేస్ ట్రిగ్గర్ ద్వారా డిఫాల్ట్ కార్యస్థితులను సృష్టించు"
         },
         {
           "key": "_twoYears",
@@ -9180,6 +9220,11 @@
           "target": "అంశాల. ముందు"
         },
         {
+          "key": "_qtyGreaterThanSource",
+          "source": "Qty is greater than source location qty available",
+          "target": "ప్యాక్ చేసిన అంశాల మూలం స్థానాన్ని చేసిన అంశాల అందుబాటులో కంటే ఎక్కువ"
+        },
+        {
           "key": "_rack",
           "source": "Rack",
           "target": "అర"
@@ -9393,6 +9438,11 @@
           "key": "_shipment",
           "source": "Shipment",
           "target": "రవాణా"
+        },
+        {
+          "key": "_shipmentNumberNotFound",
+          "source": "Shipment not found. Issue qty to shipping before attempting to Ship.",
+          "target": "రవాణా దొరకలేదు. ఓడ ప్రయత్నించే ముందు రవాణాకు ఇష్యూ చేసిన అంశాల."
         },
         {
           "key": "_shipmentNumberPolicy",
@@ -10175,6 +10225,31 @@
           "target": "పోస్ట్ ప్రింట్ లేబుల్"
         },
         {
+          "key": "_printPackingList",
+          "source": "Print Packing List",
+          "target": "ప్రింట్ ప్యాకింగ్ జాబితా"
+        },
+        {
+          "key": "_printRouting",
+          "source": "Print Routing",
+          "target": "ప్రింట్ రూటింగ్"
+        },
+        {
+          "key": "_printWorkOrderForm",
+          "source": "Print Work Order Form",
+          "target": "ప్రింట్ వర్క్ ఆర్డర్ ఫారం"
+        },
+        {
+          "key": "_printWorkOrderLabel",
+          "source": "Print Work Order Label",
+          "target": "ప్రింట్ వర్క్ ఆర్డర్ లేబుల్"
+        },
+        {
+          "key": "_printWorkOrderTraveler",
+          "source": "Print Work Order Traveler",
+          "target": "ప్రింట్ వర్క్ ఆర్డర్ ట్రావెలర్"
+        },
+        {
           "key": "_production",
           "source": "Production",
           "target": "ఉత్పత్తి"
@@ -10233,6 +10308,11 @@
           "key": "_released",
           "source": "Released",
           "target": "విడుదల"
+        },
+        {
+          "key": "_releaseWorkOrder",
+          "source": "Release Work Order",
+          "target": "విడుదల వర్క్ ఆర్డర్"
         },
         {
           "key": "_releaseWorkOrders",
