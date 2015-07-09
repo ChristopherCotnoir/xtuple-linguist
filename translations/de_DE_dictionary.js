@@ -1175,6 +1175,11 @@
           "target": "Detail"
         },
         {
+          "key": "_detailScanNoMatch",
+          "source": "The detail scan found no match",
+          "target": "Das Detail Scan gefunden keine Übereinstimmung"
+        },
+        {
           "key": "_disableExport",
           "source": "Disable Export and Print",
           "target": "Deaktivieren Export und Drucken"
@@ -2710,6 +2715,11 @@
           "target": "Verschieden"
         },
         {
+          "key": "_modelMissingMethod",
+          "source": "Model is missing method",
+          "target": "Modell fehlt Verfahren"
+        },
+        {
           "key": "_module",
           "source": "Module",
           "target": "Modul"
@@ -2728,6 +2738,11 @@
           "key": "_multiple",
           "source": "Multiple",
           "target": "Mehrere"
+        },
+        {
+          "key": "_multipleDetailModels",
+          "source": "Multiple Detail Models have qty distributed",
+          "target": "Mehrere Details Models haben Menge verteilt"
         },
         {
           "key": "_multipleOrderQuantity",
@@ -2908,6 +2923,11 @@
           "key": "_noPurchaseOrder",
           "source": "No Purchase Order Number",
           "target": "Keine Auftragsnummer"
+        },
+        {
+          "key": "_noQtyToTransact",
+          "source": "There is no qty to transact",
+          "target": "Es gibt keine Menge zu tätigen"
         },
         {
           "key": "_noReschedule",
@@ -3355,6 +3375,11 @@
           "target": "Drucker"
         },
         {
+          "key": "_printForm",
+          "source": "Print Form",
+          "target": "Print Form"
+        },
+        {
           "key": "_printOnSave",
           "source": "Print on Save",
           "target": "Drucken Sie auf Speichern"
@@ -3363,6 +3388,11 @@
           "key": "_printPickList",
           "source": "Print Picklist",
           "target": "Drucken Auswahlliste"
+        },
+        {
+          "key": "_printSalesOrderForm",
+          "source": "Print Sales Order Form",
+          "target": "Drucken Verkauf Bestellformular"
         },
         {
           "key": "_printSettings",
@@ -3643,6 +3673,11 @@
           "key": "_replyTo",
           "source": "Reply To",
           "target": "Beantworten"
+        },
+        {
+          "key": "_reportName",
+          "source": "Report Name",
+          "target": "Berichtsname"
         },
         {
           "key": "_req.",
@@ -4363,6 +4398,11 @@
           "key": "_trigger",
           "source": "Trigger",
           "target": "Trigger-"
+        },
+        {
+          "key": "_triggerWorkflow",
+          "source": "Create Default Workflows through Database Trigger",
+          "target": "Erstellen Sie Standard-Workflows durch Datenbank-Trigger"
         },
         {
           "key": "_twoYears",
@@ -9180,6 +9220,11 @@
           "target": "Menge. Vor"
         },
         {
+          "key": "_qtyGreaterThanSource",
+          "source": "Qty is greater than source location qty available",
+          "target": "Anzahl größer ist als Quellenlage Anzahl verfügbar"
+        },
+        {
           "key": "_rack",
           "source": "Rack",
           "target": "Rack-"
@@ -9393,6 +9438,11 @@
           "key": "_shipment",
           "source": "Shipment",
           "target": "Sendung"
+        },
+        {
+          "key": "_shipmentNumberNotFound",
+          "source": "Shipment not found. Issue qty to shipping before attempting to Ship.",
+          "target": "Versand nicht gefunden. Ausgabe Menge Versandkosten, bevor Sie versenden."
         },
         {
           "key": "_shipmentNumberPolicy",
@@ -10175,6 +10225,31 @@
           "target": "Etikett drucken auf Beitrag"
         },
         {
+          "key": "_printPackingList",
+          "source": "Print Packing List",
+          "target": "Packliste drucken"
+        },
+        {
+          "key": "_printRouting",
+          "source": "Print Routing",
+          "target": "Print Routing"
+        },
+        {
+          "key": "_printWorkOrderForm",
+          "source": "Print Work Order Form",
+          "target": "Print Arbeits Bestellformular"
+        },
+        {
+          "key": "_printWorkOrderLabel",
+          "source": "Print Work Order Label",
+          "target": "Print Work Order Label-"
+        },
+        {
+          "key": "_printWorkOrderTraveler",
+          "source": "Print Work Order Traveler",
+          "target": "Print Work Order Reisenden"
+        },
+        {
           "key": "_production",
           "source": "Production",
           "target": "Produktion"
@@ -10233,6 +10308,11 @@
           "key": "_released",
           "source": "Released",
           "target": "Freigegeben"
+        },
+        {
+          "key": "_releaseWorkOrder",
+          "source": "Release Work Order",
+          "target": "Release Work Order"
         },
         {
           "key": "_releaseWorkOrders",

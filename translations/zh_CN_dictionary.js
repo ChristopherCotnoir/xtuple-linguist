@@ -1175,6 +1175,11 @@
           "target": "细节"
         },
         {
+          "key": "_detailScanNoMatch",
+          "source": "The detail scan found no match",
+          "target": "细节扫描没有发现匹配"
+        },
+        {
           "key": "_disableExport",
           "source": "Disable Export and Print",
           "target": "禁止导出和打印"
@@ -2710,6 +2715,11 @@
           "target": "杂项"
         },
         {
+          "key": "_modelMissingMethod",
+          "source": "Model is missing method",
+          "target": "模型缺少方法"
+        },
+        {
           "key": "_module",
           "source": "Module",
           "target": "模"
@@ -2728,6 +2738,11 @@
           "key": "_multiple",
           "source": "Multiple",
           "target": "多种"
+        },
+        {
+          "key": "_multipleDetailModels",
+          "source": "Multiple Detail Models have qty distributed",
+          "target": "多重详细车型已分发数量"
         },
         {
           "key": "_multipleOrderQuantity",
@@ -2908,6 +2923,11 @@
           "key": "_noPurchaseOrder",
           "source": "No Purchase Order Number",
           "target": "没有采购订单编号"
+        },
+        {
+          "key": "_noQtyToTransact",
+          "source": "There is no qty to transact",
+          "target": "没有数量进行交易"
         },
         {
           "key": "_noReschedule",
@@ -3355,6 +3375,11 @@
           "target": "打印机"
         },
         {
+          "key": "_printForm",
+          "source": "Print Form",
+          "target": "打印表格"
+        },
+        {
           "key": "_printOnSave",
           "source": "Print on Save",
           "target": "打印保存"
@@ -3363,6 +3388,11 @@
           "key": "_printPickList",
           "source": "Print Picklist",
           "target": "打印领料"
+        },
+        {
+          "key": "_printSalesOrderForm",
+          "source": "Print Sales Order Form",
+          "target": "打印销售订单"
         },
         {
           "key": "_printSettings",
@@ -3643,6 +3673,11 @@
           "key": "_replyTo",
           "source": "Reply To",
           "target": "回复"
+        },
+        {
+          "key": "_reportName",
+          "source": "Report Name",
+          "target": "报告名称"
         },
         {
           "key": "_req.",
@@ -4363,6 +4398,11 @@
           "key": "_trigger",
           "source": "Trigger",
           "target": "触发"
+        },
+        {
+          "key": "_triggerWorkflow",
+          "source": "Create Default Workflows through Database Trigger",
+          "target": "通过创建数据库触发器默认的工作流程"
         },
         {
           "key": "_twoYears",
@@ -9180,6 +9220,11 @@
           "target": "数量。前"
         },
         {
+          "key": "_qtyGreaterThanSource",
+          "source": "Qty is greater than source location qty available",
+          "target": "数量大于源位置可用数量"
+        },
+        {
           "key": "_rack",
           "source": "Rack",
           "target": "架"
@@ -9393,6 +9438,11 @@
           "key": "_shipment",
           "source": "Shipment",
           "target": "装船"
+        },
+        {
+          "key": "_shipmentNumberNotFound",
+          "source": "Shipment not found. Issue qty to shipping before attempting to Ship.",
+          "target": "找不到出货。发行数量航运尝试发货之前。"
         },
         {
           "key": "_shipmentNumberPolicy",
@@ -10175,6 +10225,31 @@
           "target": "在帖子打印标签"
         },
         {
+          "key": "_printPackingList",
+          "source": "Print Packing List",
+          "target": "打印装箱单"
+        },
+        {
+          "key": "_printRouting",
+          "source": "Print Routing",
+          "target": "打印路由"
+        },
+        {
+          "key": "_printWorkOrderForm",
+          "source": "Print Work Order Form",
+          "target": "打印工作订购单"
+        },
+        {
+          "key": "_printWorkOrderLabel",
+          "source": "Print Work Order Label",
+          "target": "打印工作订单标签"
+        },
+        {
+          "key": "_printWorkOrderTraveler",
+          "source": "Print Work Order Traveler",
+          "target": "打印工作订单旅行者"
+        },
+        {
           "key": "_production",
           "source": "Production",
           "target": "生产"
@@ -10233,6 +10308,11 @@
           "key": "_released",
           "source": "Released",
           "target": "发布"
+        },
+        {
+          "key": "_releaseWorkOrder",
+          "source": "Release Work Order",
+          "target": "发布工作订单"
         },
         {
           "key": "_releaseWorkOrders",
