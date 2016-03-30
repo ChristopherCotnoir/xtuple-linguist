@@ -1340,6 +1340,11 @@
           "target": "ఉద్యోగులు"
         },
         {
+          "key": "_emptyList",
+          "source": "This list is empty",
+          "target": "ఈ జాబితా ఖాళీగా ఉంది"
+        },
+        {
           "key": "_end",
           "source": "End",
           "target": "చివర"
@@ -8866,7 +8871,7 @@
         },
         {
           "key": "_locationScanReqMessage",
-          "source": "Location scan required first. No match for: ",
+          "source": "Location scan required. No match for: ",
           "target": "స్థానం స్కాన్ మొదటి అవసరం. ఏ సరిపోలిక కోసం:"
         },
         {
@@ -8943,6 +8948,11 @@
           "key": "_nextTransferOrderNumber",
           "source": "Next Transfer Order Number",
           "target": "తదుపరి ట్రాన్స్ఫర్ ఆర్డర్ సంఖ్య"
+        },
+        {
+          "key": "_noDetailDistributionRecordSelected",
+          "source": "No detail distribution record selected",
+          "target": "వివరాలు పంపిణీ రికార్డు ఎంపిక"
         },
         {
           "key": "_noItem",
@@ -9355,6 +9365,11 @@
           "target": "అభ్యర్థనలు"
         },
         {
+          "key": "_requiredDetailFulfilled",
+          "source": "The required detail attributes have been entered/scanned",
+          "target": "అవసరమైన వివరాలు గుణాలు ఎంటర్ చేశారు / స్కాన్"
+        },
+        {
           "key": "_restrictedLocations",
           "source": "Restricted Locations",
           "target": "పరిమితం స్థానాలు"
@@ -9731,7 +9746,7 @@
         },
         {
           "key": "_validDefaultLocation",
-          "source": "Valid default location(s) must be selected to distribute existing inventory to.",
+          "source": "You have indicated that this Item Site should be Multiple Location Controlled and there is existing quantity on hand.You must select a default location for the on hand balance to be relocated to.",
           "target": "చెల్లుబాటు అయ్యే డిఫాల్ట్ స్థానం (లు) ఇప్పటికే జాబితా పంపిణీ తప్పక ఎంచుకోవాలి."
         },
         {
@@ -10970,6 +10985,11 @@
           "target": "కార్యాచరణ పద్ధతి"
         },
         {
+          "key": "_approved",
+          "source": "Approved",
+          "target": "ఆమోదించబడింది"
+        },
+        {
           "key": "_CopyPRtoPOItem",
           "source": "Copy to Order",
           "target": "ఆర్డర్ కాపీ"
@@ -11170,6 +11190,11 @@
           "target": "ర్యాంకింగ్"
         },
         {
+          "key": "_rejected",
+          "source": "Rejected",
+          "target": "తిరస్కరించబడిన"
+        },
+        {
           "key": "_releaseDate",
           "source": "Release Date",
           "target": "విడుదల"
@@ -11183,6 +11208,16 @@
           "key": "_RequireStdCostForPOItem",
           "source": "Require Standard Cost",
           "target": "ప్రామాణిక ఖర్చు అవసరం"
+        },
+        {
+          "key": "_review",
+          "source": "Review",
+          "target": "సమీక్ష"
+        },
+        {
+          "key": "_revision",
+          "source": "Revision",
+          "target": "కూర్పుల"
         },
         {
           "key": "_supply",

@@ -1340,6 +1340,11 @@
           "target": "Mitarbeiter"
         },
         {
+          "key": "_emptyList",
+          "source": "This list is empty",
+          "target": "Diese Liste ist leer"
+        },
+        {
           "key": "_end",
           "source": "End",
           "target": "Ende"
@@ -8866,7 +8871,7 @@
         },
         {
           "key": "_locationScanReqMessage",
-          "source": "Location scan required first. No match for: ",
+          "source": "Location scan required. No match for: ",
           "target": "Ort Scan ersten erforderlich. Ergebnisse der Suche nach:"
         },
         {
@@ -8943,6 +8948,11 @@
           "key": "_nextTransferOrderNumber",
           "source": "Next Transfer Order Number",
           "target": "Weiter Transportauftragsnummer"
+        },
+        {
+          "key": "_noDetailDistributionRecordSelected",
+          "source": "No detail distribution record selected",
+          "target": "Kein Detail Verteilung Datensatz ausgewählt"
         },
         {
           "key": "_noItem",
@@ -9355,6 +9365,11 @@
           "target": "Anfragen"
         },
         {
+          "key": "_requiredDetailFulfilled",
+          "source": "The required detail attributes have been entered/scanned",
+          "target": "Die erforderlichen Detail Attribute wurden eingegeben / gescannt"
+        },
+        {
           "key": "_restrictedLocations",
           "source": "Restricted Locations",
           "target": "Eingeschränkte Standorte"
@@ -9731,7 +9746,7 @@
         },
         {
           "key": "_validDefaultLocation",
-          "source": "Valid default location(s) must be selected to distribute existing inventory to.",
+          "source": "You have indicated that this Item Site should be Multiple Location Controlled and there is existing quantity on hand.You must select a default location for the on hand balance to be relocated to.",
           "target": "Gültige Standardposition (n) muss ausgewählt werden, um bestehende Inventar zu verteilen."
         },
         {
@@ -10970,6 +10985,11 @@
           "target": "Aktivitätstyp"
         },
         {
+          "key": "_approved",
+          "source": "Approved",
+          "target": "Genehmigt"
+        },
+        {
           "key": "_CopyPRtoPOItem",
           "source": "Copy to Order",
           "target": "Kopieren Sie bestellen"
@@ -11170,6 +11190,11 @@
           "target": "Rang"
         },
         {
+          "key": "_rejected",
+          "source": "Rejected",
+          "target": "Zurückgewiesen"
+        },
+        {
           "key": "_releaseDate",
           "source": "Release Date",
           "target": "Erscheinungsdatum"
@@ -11183,6 +11208,16 @@
           "key": "_RequireStdCostForPOItem",
           "source": "Require Standard Cost",
           "target": "Erfordern Standardkosten-"
+        },
+        {
+          "key": "_review",
+          "source": "Review",
+          "target": "Überprüfung"
+        },
+        {
+          "key": "_revision",
+          "source": "Revision",
+          "target": "Revision"
         },
         {
           "key": "_supply",

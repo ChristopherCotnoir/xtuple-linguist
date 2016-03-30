@@ -1340,6 +1340,11 @@
           "target": "Empleados"
         },
         {
+          "key": "_emptyList",
+          "source": "This list is empty",
+          "target": "Esta lista está vacía"
+        },
+        {
           "key": "_end",
           "source": "End",
           "target": "Final"
@@ -8866,7 +8871,7 @@
         },
         {
           "key": "_locationScanReqMessage",
-          "source": "Location scan required first. No match for: ",
+          "source": "Location scan required. No match for: ",
           "target": "Exploración Localización requiere primero. No hay resultados para:"
         },
         {
@@ -8943,6 +8948,11 @@
           "key": "_nextTransferOrderNumber",
           "source": "Next Transfer Order Number",
           "target": "Siguiente Transferencia Número de pedido"
+        },
+        {
+          "key": "_noDetailDistributionRecordSelected",
+          "source": "No detail distribution record selected",
+          "target": "No hay registro de distribución de detalle seleccionado"
         },
         {
           "key": "_noItem",
@@ -9355,6 +9365,11 @@
           "target": "Peticiones"
         },
         {
+          "key": "_requiredDetailFulfilled",
+          "source": "The required detail attributes have been entered/scanned",
+          "target": "se han introducido / escaneada los atributos de detalles que desee"
+        },
+        {
           "key": "_restrictedLocations",
           "source": "Restricted Locations",
           "target": "Ubicaciones restringidos"
@@ -9731,7 +9746,7 @@
         },
         {
           "key": "_validDefaultLocation",
-          "source": "Valid default location(s) must be selected to distribute existing inventory to.",
+          "source": "You have indicated that this Item Site should be Multiple Location Controlled and there is existing quantity on hand.You must select a default location for the on hand balance to be relocated to.",
           "target": "Ubicación predeterminada Válido (s) debe ser seleccionado como distribuidor de inventario existente a."
         },
         {
@@ -10970,6 +10985,11 @@
           "target": "Tipo de Actividad"
         },
         {
+          "key": "_approved",
+          "source": "Approved",
+          "target": "Aprobado"
+        },
+        {
           "key": "_CopyPRtoPOItem",
           "source": "Copy to Order",
           "target": "Copy to Order"
@@ -11170,6 +11190,11 @@
           "target": "Clasificación"
         },
         {
+          "key": "_rejected",
+          "source": "Rejected",
+          "target": "Rechazado"
+        },
+        {
           "key": "_releaseDate",
           "source": "Release Date",
           "target": "Fecha de lanzamiento"
@@ -11183,6 +11208,16 @@
           "key": "_RequireStdCostForPOItem",
           "source": "Require Standard Cost",
           "target": "Requerir de costes estándar"
+        },
+        {
+          "key": "_review",
+          "source": "Review",
+          "target": "revisión"
+        },
+        {
+          "key": "_revision",
+          "source": "Revision",
+          "target": "Revisión"
         },
         {
           "key": "_supply",
