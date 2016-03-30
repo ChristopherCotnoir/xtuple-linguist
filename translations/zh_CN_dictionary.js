@@ -1340,6 +1340,11 @@
           "target": "员工"
         },
         {
+          "key": "_emptyList",
+          "source": "This list is empty",
+          "target": "这个列表是空的"
+        },
+        {
           "key": "_end",
           "source": "End",
           "target": "结束"
@@ -8866,7 +8871,7 @@
         },
         {
           "key": "_locationScanReqMessage",
-          "source": "Location scan required first. No match for: ",
+          "source": "Location scan required. No match for: ",
           "target": "所需位置扫描第一。敌不过："
         },
         {
@@ -8943,6 +8948,11 @@
           "key": "_nextTransferOrderNumber",
           "source": "Next Transfer Order Number",
           "target": "接着转移订单号"
+        },
+        {
+          "key": "_noDetailDistributionRecordSelected",
+          "source": "No detail distribution record selected",
+          "target": "未选择具体发行纪录"
         },
         {
           "key": "_noItem",
@@ -9355,6 +9365,11 @@
           "target": "请求"
         },
         {
+          "key": "_requiredDetailFulfilled",
+          "source": "The required detail attributes have been entered/scanned",
+          "target": "所需的详细属性已输入/扫描"
+        },
+        {
           "key": "_restrictedLocations",
           "source": "Restricted Locations",
           "target": "地点限制"
@@ -9731,7 +9746,7 @@
         },
         {
           "key": "_validDefaultLocation",
-          "source": "Valid default location(s) must be selected to distribute existing inventory to.",
+          "source": "You have indicated that this Item Site should be Multiple Location Controlled and there is existing quantity on hand.You must select a default location for the on hand balance to be relocated to.",
           "target": "有效的默认位置（多个）的选择必须分配现有库存。"
         },
         {
@@ -10970,6 +10985,11 @@
           "target": "活动类型"
         },
         {
+          "key": "_approved",
+          "source": "Approved",
+          "target": "批准"
+        },
+        {
           "key": "_CopyPRtoPOItem",
           "source": "Copy to Order",
           "target": "复制订购"
@@ -11170,6 +11190,11 @@
           "target": "排行"
         },
         {
+          "key": "_rejected",
+          "source": "Rejected",
+          "target": "拒绝"
+        },
+        {
           "key": "_releaseDate",
           "source": "Release Date",
           "target": "发布日期"
@@ -11183,6 +11208,16 @@
           "key": "_RequireStdCostForPOItem",
           "source": "Require Standard Cost",
           "target": "需要标准成本"
+        },
+        {
+          "key": "_review",
+          "source": "Review",
+          "target": "评论"
+        },
+        {
+          "key": "_revision",
+          "source": "Revision",
+          "target": "调整"
         },
         {
           "key": "_supply",
